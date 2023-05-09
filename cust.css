@@ -83,7 +83,7 @@ body {
 
 .carous{
   padding-top: 50px;
-  background-color:bisque;
+  background-color:papayawhip;
   padding-bottom:50px;
 }
 
@@ -118,7 +118,10 @@ body {
 
 .text-center {
   padding-top: 10px;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
+}
+.bottom{
+  padding-bottom: 40px;
 }
 .bclr{
   background-color: #009ca6;
@@ -203,4 +206,7 @@ body {
 }
 .carousel{
   top: -24px;
+}
+.mt-4{
+  margin-bottom: -24px;
 }

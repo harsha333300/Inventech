@@ -214,26 +214,28 @@ body {
 .navadj{
   padding-bottom: 25px;
 }
-.carousel-control.right{
+.carousel-control.right.a{
   top: 174px;
   bottom: 174px;
   width: 6%;
   border-radius:50%;
 }
-.carousel-control.left{
+.carousel-control.left.a{
   top: 174px;
   bottom: 174px;
   width: 6%;
   border-radius:50%;
-}
-.carousel-control.right.h{
-  top: 102px;
-  bottom: 63px;
-  width: 6%;
-}
-.carousel-control.left.h{
-  top: 102px;
-  bottom: 63px;
-  width: 6%;
 }
 
+.carousel-control.right.h{
+  top: 91px;
+  bottom: 80px;
+  width: 6%;
+  border-radius:50%;
+}
+.carousel-control.left.h{
+  top: 91px;
+  bottom: 80px;
+  width: 6%;
+  border-radius:50%;
+}

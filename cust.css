@@ -207,13 +207,33 @@ body {
 .carousel{
   top: -24px;
 }
-.carousel-control{
-  top: 26px;
-  bottom: 15px;
-}
+
 .mt-4{
   margin-bottom: -24px;
 }
 .navadj{
   padding-bottom: 25px;
 }
+.carousel-control.right{
+  top: 174px;
+  bottom: 174px;
+  width: 6%;
+  border-radius:50%;
+}
+.carousel-control.left{
+  top: 174px;
+  bottom: 174px;
+  width: 6%;
+  border-radius:50%;
+}
+.carousel-control.right.h{
+  top: 102px;
+  bottom: 63px;
+  width: 6%;
+}
+.carousel-control.left.h{
+  top: 102px;
+  bottom: 63px;
+  width: 6%;
+}
+

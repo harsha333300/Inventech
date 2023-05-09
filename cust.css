@@ -193,7 +193,14 @@ body {
 }
 .col-md-4 {
   padding-top: 40px;
-  background-color:#009ca6;
+ 
   padding-left: 2px;
 }
-
+.margin{
+  background-color:#009ca6;
+  height: 383px;
+  position: relative;
+}
+.carousel{
+  top: -24px;
+}

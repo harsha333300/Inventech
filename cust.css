@@ -207,6 +207,13 @@ body {
 .carousel{
   top: -24px;
 }
+.carousel-control{
+  top: 26px;
+  bottom: 15px;
+}
 .mt-4{
   margin-bottom: -24px;
+}
+.navadj{
+  padding-bottom: 25px;
 }

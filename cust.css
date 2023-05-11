@@ -219,12 +219,14 @@ body {
   bottom: 174px;
   width: 6%;
   border-radius:50%;
+  background-image: none;
 }
 .carousel-control.left.a{
   top: 174px;
   bottom: 174px;
   width: 6%;
   border-radius:50%;
+  background-image: none;
 }
 
 .carousel-control.right.h{
@@ -232,30 +234,42 @@ body {
   bottom: 93px;
   width: 6%;
   border-radius:50%;
+  background-image: none;
 }
 .carousel-control.left.h{
   top: 76px;
   bottom: 93px;
   width: 6%;
   border-radius:50%;
+  background-image: none;
 }
-.glyphicon-chevron-right.glyphicon.h{
+.glyphicon-chevron-right.glyphicon.h:hover{
   margin-top: -15px;
   margin-right: -15px;
+  color: blue;
 }
-.glyphicon-chevron-left.glyphicon.h{
+.glyphicon-chevron-left.glyphicon.h:hover{
   margin-top: -15px;
   margin-left: -15px;
+  color: blue;
 }
 .carousel-control.right{
-  top: 282px;
-  bottom: 282px;
+  top: 321px;
+  bottom: 356px;
   width: 6%;
   border-radius:50%;
+  background-image: none;
 }
 .carousel-control.left{
-  top: 282px;
-  bottom: 282px;
+  top: 321px;
+  bottom: 356px;
   width: 6%;
   border-radius:50%;
+  background-image: none;
+}
+.image-height{
+ height: 640px;
+}
+.carousel-inner{
+  height: 640px;
 }

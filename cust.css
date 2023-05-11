@@ -228,14 +228,34 @@ body {
 }
 
 .carousel-control.right.h{
-  top: 91px;
-  bottom: 80px;
+  top:76px;
+  bottom: 93px;
   width: 6%;
   border-radius:50%;
 }
 .carousel-control.left.h{
-  top: 91px;
-  bottom: 80px;
+  top: 76px;
+  bottom: 93px;
+  width: 6%;
+  border-radius:50%;
+}
+.glyphicon-chevron-right.glyphicon.h{
+  margin-top: -15px;
+  margin-right: -15px;
+}
+.glyphicon-chevron-left.glyphicon.h{
+  margin-top: -15px;
+  margin-left: -15px;
+}
+.carousel-control.right{
+  top: 282px;
+  bottom: 282px;
+  width: 6%;
+  border-radius:50%;
+}
+.carousel-control.left{
+  top: 282px;
+  bottom: 282px;
   width: 6%;
   border-radius:50%;
 }

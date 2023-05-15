@@ -270,6 +270,6 @@ body {
 .image-height{
  height: 640px;
 }
-.carousel-inner{
+.carousel-inner.h{
   height: 640px;
 }

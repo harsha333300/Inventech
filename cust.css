@@ -118,30 +118,33 @@ body {
 
 .text-center {
   padding-top: 10px;
-  padding-bottom: 0px;
+  padding-bottom: 10px;
 }
 .bottom{
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 .bclr{
   background-color: #009ca6;
 }
 .fba{
   color: rgb(39, 39, 240);
- 
-
+  background-color: white;
 }
 .twb{
   color: #12dbe9;
-  
+  background-color: white;
 }
 .lnb{
   color:rgb(25, 25, 192);
- 
+  background-color: white;
 }
 .instab{
   color: rgb(209, 60, 85);
- 
+  background-color: white;
+}
+.goo{
+  color: #2aa4f5;
+  background-color: white;
 }
 .fbb{
   color: blue;

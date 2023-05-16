@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family:emoji;
 }
 
 body {
@@ -28,14 +29,14 @@ body {
     text-align: center;
 }
 .btnn-align{
-    color: lightseagreen
-    ;
+    color: green;
     text-align: center;
-    padding: 10px;
+    border-radius: 30%;
 }
 button{
-    border: 2px solid rgb(20, 180, 180);
-    border-radius: 12px;
+    border-radius: 20% ;
+    border: 1px solid green;
+    border-radius: 10px;
     padding: 9px;
 }
 .second-row{
@@ -59,7 +60,7 @@ input{
     padding: 12px;
 }
 .phno{
-    color: orangered;
+    color: black;
 }
 label{
     font-weight: unset;
@@ -67,4 +68,9 @@ label{
 a{
     color: black;
 }
-
+p{
+    text-align: center;
+}
+.col-md-6.b{
+    background-color: mediumseagreen;
+}

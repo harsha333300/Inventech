@@ -24,7 +24,7 @@ body {
     justify-content: space-around;
 }
 
-.container h1 {
+.container h2 {
     text-align: center;
 }
 
@@ -87,11 +87,9 @@ img{
 .btnn-align{
     text-align: center;
     padding: 10px;
-    
- 
 }
 button{
     border: 2px solid rgb(20, 180, 180);
     border-radius: 12px;
-    padding: 8px;
+    padding: 9px;
 }

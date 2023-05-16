@@ -74,23 +74,23 @@ body {
     transition: 0.5s;
 }
 .a:hover{
-    background-color: dodgerblue;
+    background-color:springgreen;
 }
 .third-row{
     padding-bottom: 5px;
 }
 img{
-  padding-left: 150px;
+  padding-left: 109px;
   padding-top: 30px;
 }
-button{
-    text-align: center;
-    border-radius: 50%;
-}
+
 .btnn-align{
     text-align: center;
     padding: 10px;
+    color: rgb(20, 180, 180);
+    border-radius: 1px solid;
 }
-.button{
-    border-radius: 50%;
+button{
+    padding: 8px;
+    border: 1px solid;
 }

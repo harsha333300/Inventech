@@ -2,7 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family:emoji;
+    font-family: emoji;
+
 }
 
 body {
@@ -11,7 +12,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: azure;
+    background-image: linear-gradient(90deg, #3525c2, #9e238e);
 }
 
 .container {
@@ -23,54 +24,87 @@ body {
     flex-direction: column;
     padding: 40px;
     justify-content: space-around;
+    position: fixed;
 }
 
 .container h2 {
     text-align: center;
 }
-.btnn-align{
+
+.btnn-align {
     color: green;
     text-align: center;
     border-radius: 30%;
+
 }
-button{
-    border-radius: 20% ;
-    border: 1px solid green;
+
+button {
+    border-radius: 20%;
+    border: 1px solid gainsboro;
     border-radius: 10px;
-    padding: 9px;
+    padding: 8px;
+    letter-spacing: 1px;
 }
-.second-row{
-    padding-bottom: 20px;
+
+.second-row {
+    padding-bottom: 15px;
+    display: flex;
 }
-.a{
-    background-color:orangered;
+
+.a {
+    background-color: orangered;
     text-align: center;
     text-transform: uppercase;
     padding: 10px;
     font-size: 18px;
+    width: 400px;
 }
-.first-row{
-    padding-top: 10px;
-    padding-bottom: 20px;
+
+.first-row {
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
-.fourth-row{
-    padding-bottom: 20px;
+
+.fourth-row {
+    padding-bottom: 15px;
 }
-input{
+
+input {
     padding: 12px;
+    letter-spacing: 2px;
 }
-.phno{
+
+.phno {
     color: black;
 }
-label{
+
+label {
     font-weight: unset;
 }
-a{
-    color: black;
-}
-p{
+
+p {
     text-align: center;
 }
-.col-md-6.b{
-    background-color: mediumseagreen;
+
+.vl {
+    border-left: 2px solid black;
+    height: 400px;
+    padding-left: 50px;
+}
+
+h6 {
+    width: 267px;
+    letter-spacing: 1px;
+}
+
+h2 {
+    letter-spacing: 2px;
+}
+
+.third-row {
+    letter-spacing: 1px;
+}
+
+.ad {
+    padding-left: 140px;
 }

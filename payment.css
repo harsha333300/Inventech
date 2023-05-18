@@ -31,11 +31,12 @@ body {
 }
 
 .btnn-align {
-    color: green;
+    color: blueviolet;
     text-align: center;
 }
 
 button {
+    border-radius: 8px !important;
     border: 1px solid black;
     padding: 7px;
     letter-spacing: 1px;
@@ -43,7 +44,7 @@ button {
 }
 
 .second-row {
-    padding-bottom: 15px;
+    padding-bottom: 13px;
     display: flex;
 }
 
@@ -54,19 +55,21 @@ button {
     padding: 10px;
     font-size: 18px;
     width: 400px;
-    border-radius: 6px;
+    border-radius: 8px;
 }
 
 .first-row {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 16px;
+    padding-bottom: 18px;
 }
 .fourth-row {
-    padding-bottom: 15px;
+    padding-bottom: 18px;
 }
 input {
     padding: 12px;
-    letter-spacing: 2px;  
+    letter-spacing: 2px; 
+    border: 1px solid;
+    border-radius: 8px; 
 }
 
 .phno {

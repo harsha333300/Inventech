@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: lavender!important;
+    background-color: #C5CBE7!important;
 }
 
 .container {
@@ -23,19 +23,18 @@ body {
     padding: 40px;
     justify-content: space-around;
     position: fixed;
-    box-shadow: 5px 5px 40px black;
+    box-shadow: 10px 8px 50px black;
     font-family:serif!important;
 }
-
-.container h2 {
-    text-align: center;
+.left{
+    padding-left: 148px;
 }
 
 .btnn-align {
     
     color: white;
     text-align: center;
-    margin-top: -5px;
+    margin-top: -7px;
 }
 
 button {
@@ -74,6 +73,7 @@ input {
     letter-spacing: 2px; 
     border: 1px solid;
     border-radius: 8px; 
+    font-size: 10px !important;
 
 }
 
@@ -96,6 +96,7 @@ p {
 }
 
 h6 {
+    font-size: 13px !important;
     width: 267px;
     font-family: sans-serif!important;
 }
@@ -103,24 +104,20 @@ h6 {
 h2 {
     letter-spacing: 2px;
 }
-
-.third-row {
-    letter-spacing: 1px;
-}
 .ad{
-   padding-right: 70px;
+   padding-right: 335px;
 }
 .align{
     margin-left: 8px;
 }
 .vl{
-    border-left: 1px solid black;
+    border-left: 1px solid #080708;
     height: 500px;
     position: absolute;
     left: 50%;
     margin-left: 0px;
     top: 0;
-    padding-left: 40px;
-    box-shadow: -6px 0px 18px #cecece;
+    padding-left: 1px;
+    box-shadow: 0px 0px 3px #242323;
     /* transform: rotateX(45deg); */
 }

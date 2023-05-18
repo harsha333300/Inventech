@@ -39,6 +39,7 @@ button {
     border: 1px solid black;
     padding: 7px;
     letter-spacing: 1px;
+    font-family: sans-serif!important;
 }
 
 .second-row {
@@ -60,15 +61,12 @@ button {
     padding-top: 15px;
     padding-bottom: 15px;
 }
-
 .fourth-row {
     padding-bottom: 15px;
 }
-
 input {
     padding: 12px;
-    letter-spacing: 2px;
-    
+    letter-spacing: 2px;  
 }
 
 .phno {
@@ -91,7 +89,7 @@ p {
 
 h6 {
     width: 267px;
-    letter-spacing: 1px;
+    font-family: sans-serif!important;
     filter: drop-shadow(0.5rem 0.5rem 0.55rem rgba(0, 0, 0, 0));
 }
 
@@ -105,4 +103,7 @@ h2 {
 
 .ad {
     padding-left: 140px;
+}
+.align{
+    margin-left: 8px;
 }

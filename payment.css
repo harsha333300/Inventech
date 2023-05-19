@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:  #C5CBE7!important;
+    background-color:#d7d6d8!important;
 }
 
 .container {
@@ -23,7 +23,7 @@ body {
     padding: 40px;
     justify-content: space-around;
     position: fixed;
-    box-shadow: 10px 8px 20px black;
+    box-shadow: 1px 4px 13px rgb(53, 45, 45);
     font-family:serif!important;
 }
 .left{
@@ -111,7 +111,7 @@ h2 {
     margin-left: 8px;
 }
 .vl{
-    border-left: 1px solid #dcdcdc;
+    border-left: 1px solid #e3e3e3;
     height: 500px;
     position: absolute;
     left: 50%;

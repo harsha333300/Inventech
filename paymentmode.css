@@ -14,8 +14,8 @@ body {
 }
 
 .container {
-    width: 700px;
-    height: 500px;
+    width: 1140px !important;
+    height: 600px;
     border-radius: 20px;
     background-color: white;
     flex-direction: column;
@@ -26,8 +26,9 @@ body {
     font-family:serif!important;
 }
 .sidenav{
-    padding: 10px;
-    width: 200px;
+    
+    width: 230px;
+    font-size: 20px;
     text-align: center;
     box-shadow: 1px 0px 3px rgb(53, 50, 50);
     background-color: white;
@@ -40,4 +41,39 @@ h3{
 }
 a:hover{
     color: #32b988!important;
+}
+
+.small{
+    background-color: #32b988;
+    padding: 3px;
+    padding-bottom: 22px;
+    padding-top: 35px;
+    margin-left: 15px;
+    
+}
+.col-md-3{
+   
+    height: 434px;
+    background-color: white;
+    flex-direction: column;
+    padding: 40px;
+    justify-content: space-around;
+    position: fixed;
+    border: 1px solid black;
+    font-family:serif!important;
+}
+.col-md-9{
+   
+    height: 434px;
+    background-color: white;
+    flex-direction: column;
+    padding: 40px;
+    justify-content: space-around;
+    position: fixed;
+    border: 1px solid black;
+    font-family:serif!important;
+}
+.text-center{
+    padding-left: 48px;
+    padding-top: 13px;
 }

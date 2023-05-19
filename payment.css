@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #C5CBE7!important;
+    background-color:  #C5CBE7!important;
 }
 
 .container {
@@ -23,7 +23,7 @@ body {
     padding: 40px;
     justify-content: space-around;
     position: fixed;
-    box-shadow: 10px 8px 50px black;
+    box-shadow: 10px 8px 20px black;
     font-family:serif!important;
 }
 .left{
@@ -38,7 +38,7 @@ body {
 }
 
 button {
-    background-color: cornflowerblue;
+    background-color: #385bc5;
     border-radius: 8px !important;
     border: 1px solid ;
     padding: 8px;
@@ -52,10 +52,10 @@ button {
 }
 
 .a {
-    background-color: orangered;
+    background-color: #f14c10;
     text-align: center;
     text-transform: uppercase;
-    padding: 10px;
+    padding: 9px;
     font-size: 18px;
     width: 400px;
     border-radius: 8px;
@@ -111,13 +111,12 @@ h2 {
     margin-left: 8px;
 }
 .vl{
-    border-left: 1px solid #080708;
+    border-left: 1px solid #dcdcdc;
     height: 500px;
     position: absolute;
     left: 50%;
     margin-left: 0px;
     top: 0;
-    padding-left: 1px;
-    box-shadow: 0px 0px 3px #242323;
+    box-shadow: 2px 0px 7px 0px  #c6c6c6, -2px 0px 7px 0px #c6c6c6;
     /* transform: rotateX(45deg); */
 }

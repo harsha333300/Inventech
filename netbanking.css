@@ -25,3 +25,30 @@ body {
     box-shadow: 1px 4px 13px rgb(53, 45, 45);
     font-family:serif!important;
 }
+.text-center{
+    justify-content: center;
+}
+.col-md-4{
+    text-align: center;
+}
+.row.h{
+    padding-top: 25px;
+}
+h2{
+    padding-left: 79px;
+    padding-bottom: 12px;
+}
+.a {
+    background-color: #f14c10;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 9px;
+    font-size: 18px;
+    width: 400px;
+    border-radius: 8px;
+    text-transform: capitalize
+}
+.butn{
+    margin-top: 120px;
+    padding-left: 163px;
+}

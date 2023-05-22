@@ -60,7 +60,9 @@ button {
     width: 400px;
     border-radius: 8px;
 }
-
+a{
+    text-decoration: none !important;
+}
 .first-row {
     padding-top: 16px;
     padding-bottom: 18px;

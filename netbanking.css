@@ -71,3 +71,6 @@ h2{
     padding-top: 20px;
     font-size: medium;
 }
+a{
+    text-decoration: none !important;
+}

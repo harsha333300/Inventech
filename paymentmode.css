@@ -35,6 +35,8 @@ body {
 }
 a{
     color: black !important;
+    text-decoration: none !important;
+    
 }
 h3{
     padding-bottom: 20px;

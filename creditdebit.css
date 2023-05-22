@@ -58,6 +58,10 @@ button {
     font-size: 18px;
     width: 400px;
     border-radius: 8px;
+    
+}
+a{
+    text-decoration: none !important;
 }
 
 .first-row {

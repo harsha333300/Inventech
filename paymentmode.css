@@ -58,22 +58,23 @@ a:hover{
     height: 434px;
     background-color: white;
     flex-direction: column;
-    padding: 40px;
     justify-content: space-around;
     position: fixed;
     border: 1px solid black;
     font-family:serif!important;
+    border-left: 0px;
+    /* padding-left: 54px !important; */
+    padding : 25px !important;
 }
 .col-md-9{
    
     height: 434px;
     background-color: white;
-    flex-direction: column;
-    padding: 40px;
-    justify-content: space-around;
     position: fixed;
     border: 1px solid black;
     font-family:serif!important;
+    border-left: 0px ;
+    border-right: 0px;
 }
 .text-center{
     padding-left: 48px;

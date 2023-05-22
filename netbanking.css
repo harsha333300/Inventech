@@ -42,13 +42,32 @@ h2{
     background-color: #f14c10;
     text-align: center;
     text-transform: uppercase;
-    padding: 9px;
+    padding: 10px;
     font-size: 18px;
-    width: 400px;
+    width: 521px;
     border-radius: 8px;
     text-transform: capitalize
 }
 .butn{
-    margin-top: 120px;
-    padding-left: 163px;
+    margin-top: 5px;
+    padding-left: 100px;
+}
+.col-md-12{
+    font-size: medium;
+    padding-top: 20px;
+    padding-left: 100px !important ;
+}
+
+.form-select{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 188px;
+    padding-left: 200px;
+    border-radius: 10px;
+}
+.paragraph{
+    padding-left: 130px;
+    padding-top: 20px;
+    font-size: medium;
 }

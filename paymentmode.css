@@ -30,18 +30,14 @@ body {
     border-top: 1px solid gray !important;
     border-bottom: 1px solid gray !important;
     border-right: 1px solid gray !important;
-    
+    margin: 1px;
 }
 .nav-link.active{
     background-color: white !important;
     border-left: 6px solid green !important;
-    border-top: 1px solid gray;
-    border-bottom: 1px solid gray;
-    border-right: 1px solid gray;
 }
 .col-md-3{
     height: 413px;
-    border-radius: 20px;
     background-color: white;
     flex-direction: column;
     padding: 40px;
@@ -54,7 +50,22 @@ body {
     position: absolute;
     left: 25%;
     margin-left: 0px;
-    top: 35px;
+    top: 40px;
     box-shadow: 2px 0px 7px 0px  #c6c6c6, -2px 0px 7px 0px #c6c6c6;
     transform: rotateX(45deg);
+}
+.imagee{
+    padding-right: 25%;
+}
+.images{
+    padding-right: 75%;
+}
+.image{
+    padding-left: 35%;
+}
+.col-md-3{
+    height: 300px;
+}
+.nav-pills .nav-link{
+    border-radius: none !important;
 }

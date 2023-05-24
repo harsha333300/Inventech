@@ -31,17 +31,19 @@
     font-size: 18px;
     border-radius: 8px;
     text-transform: capitalize;
-    width: 567px;
+    width: 456px;
 }
 .buts{
     margin-top: 5px;
    padding-left: 106px !important;
+   margin-left: 31px ;
 }
 .col-md-12{
     font-size: medium;
     padding-top: 10px;
     padding-left: 201px !important ;
-    margin-left: -95px;
+    margin-left: -65px;
+    width: 86% !important;
 }
 
 .form-select{
@@ -54,12 +56,14 @@
 }
 .paragraph{
     padding-left: 130px;
-    padding-top: 20px !important;
-    font-size: medium;
+    padding-top: 15px !important;
+    font-size:small;
+    margin-left: -20px;
 }
 h5{
     font-size:x-small !important;
 }
 .net{
-    padding-left: 90px;
+    padding-left: 130px;
+    padding-bottom: 10px
 }

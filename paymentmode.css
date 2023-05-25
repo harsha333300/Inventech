@@ -51,21 +51,23 @@ body {
    
 }
 .imagee{
-    padding-right: 0%;
+    padding-right: 135%;
     margin-right: -50px;
 }
 .images{
     padding-right: 207px;
+    margin-left: 3px;
    
 }
 .image{
-    padding-left: 109%;
+    padding-left: 5%;
 }
 .col-md-3{
     height: 300px;
 }
 .nav-link.active:hover{
     box-shadow: 0px 0px 4px 1px gray;
+    background-color: #f9f9f9 !important;
 }
 h4{
     font-size: 16px !important;
@@ -74,6 +76,13 @@ h4{
 .nav-link{
     background-color: #f7f7f7 !important;
 }
-.bcg{
-    background-color:blanchedalmond !important;
+.col-md-4.z{
+    margin-left: -150px;
+}
+.col-md-4.y{
+    margin-right: 121px;
+    margin-left: 140px;
+}
+.col-md-4.x{
+    margin-left: -270px;
 }

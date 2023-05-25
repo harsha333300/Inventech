@@ -1,5 +1,6 @@
 
 .containers {
+    margin-left: 43px;
     width: 800px;
     height: 350px;
     border-radius: 20px;
@@ -65,4 +66,10 @@ h5{
 .net{
     padding-left: 229px;
     padding-bottom: 10px
+}
+.bc{
+    background-color: gray;
+    padding: 10px;
+    margin-right: 90px;
+    margin-left: 90px;
 }

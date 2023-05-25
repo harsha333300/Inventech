@@ -27,23 +27,22 @@
     background-color: #f14c10;
     text-align: center;
     text-transform: uppercase;
-    padding: 7px;
+    padding: 6px;
     font-size: 18px;
     border-radius: 8px;
     text-transform: capitalize;
-    width: 456px;
+    width: 376px;
 }
 .buts{
-    margin-top: 5px;
-   padding-left: 106px !important;
-   margin-left: 31px ;
+   padding-left: 234px !important;
+   
 }
 .col-md-12{
     font-size: medium;
     padding-top: 10px;
     padding-left: 201px !important ;
-    margin-left: -65px;
-    width: 86% !important;
+    margin-left: 34px;
+    width: 75% !important;
 }
 
 .form-select{
@@ -51,19 +50,19 @@
     padding-top: 7px !important;
     padding-bottom: 7px !important;
     padding-right: 140px !important;
-    padding-left: 157px !important;
-    border-radius: 10px;
+    padding-left: 130px !important;
+    font-size: small !important;
 }
 .paragraph{
     padding-left: 130px;
     padding-top: 15px !important;
     font-size:small;
-    margin-left: -20px;
+    margin-left: 34px;
 }
 h5{
     font-size:x-small !important;
 }
 .net{
-    padding-left: 130px;
+    padding-left: 229px;
     padding-bottom: 10px
 }

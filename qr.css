@@ -15,10 +15,11 @@
     position: fixed;
     font-family:serif!important;
     margin-top: -16px;
+    padding-left: 112px;
 }
 
 .leftt{
-    padding-left: 91px;
+    padding-left: 100px;
 }
 
 .btns-align {
@@ -43,4 +44,8 @@ p {
 
 h2 {
     letter-spacing: 2px;
+}
+
+.col-lg-12{
+    width: 75% !important;
 }

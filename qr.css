@@ -5,27 +5,30 @@
 }
 
 .containerrr {
-    width: 750px;
-    height: 350px;
-    border-radius: 20px;
-    background-color: white;
-    flex-direction: column;
-    padding: 23px;
-    justify-content: space-around;
+    width: 804px;
     position: fixed;
     font-family:serif!important;
     margin-top: -16px;
     padding-left: 112px;
+    border: 1px solid #b1b1b1;
+    margin-top: -4px;
+    margin-left: -12px;
+    background-color: 
+    #f0eaeb
+    ;
 }
 
 .leftt{
     padding-left: 100px;
+    padding-bottom: 10px;
 }
 
 .btns-align {
     color: white;
     text-align: center;
-    margin-top: -9px;
+    margin-top: -18px;
+    padding-top: 15px;
+    padding-bottom: 14px;
 }
 button { 
     font-size: 14px !important;

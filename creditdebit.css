@@ -4,16 +4,16 @@
     box-sizing: border-box;
 }
 .containerr.h{
-   width: 700px;
-    height: 350px;
-    border-radius: 20px;
-    background-color: white;
-    flex-direction: column;
+    width: 804px;
     padding: 23px;
-    justify-content: space-around;
     font-family:serif!important;
     margin-top: -4px;
     padding-left: 135px;
+    border: 1px solid #b1b1b1;
+    margin-left: -12px;
+    background-color: 
+    #f0eaeb
+;    
 }
 
 .left{
@@ -42,7 +42,7 @@ button {
 }
 
 .a {
-    background-color: #f14c10;
+    background-color: #fd423d;
     text-align: center;
     text-transform: uppercase;
     padding: 9px;
@@ -106,13 +106,3 @@ h2 {
 .align{
     margin-left: 8px;
 }
-/* .vl{
-    border-left: 1px solid #e3e3e3;
-    height: 500px;
-    position: absolute;
-    left: 50%;
-    margin-left: 0px;
-    top: 0;
-    box-shadow: 2px 0px 7px 0px  #c6c6c6, -2px 0px 7px 0px #c6c6c6;
-     transform: rotateX(45deg); 
-} */

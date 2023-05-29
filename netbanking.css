@@ -35,14 +35,14 @@
     width: 376px;
 }
 .buts{
-   padding-left: 234px !important;
+   padding-left: 200px !important;
    
 }
 .col-md-12{
     font-size: medium;
     padding-top: 10px;
-    padding-left: 201px !important ;
-    margin-left: 34px;
+    padding-left: 200px !important ;
+    /* margin-left: 34px; */
     width: 75% !important;
 }
 
@@ -58,17 +58,16 @@
     padding-left: 130px;
     padding-top: 15px !important;
     font-size:small;
-    margin-left: 34px;
 }
 h5{
     font-size:x-small !important;
 }
 .net{
-    padding-left: 229px;
-    padding-bottom: 10px
+    padding-left: 322px;
+    padding-bottom: 15px
 }
 .bc{
-    background-color: gray;
+    background-color: #f8faf8;
     padding: 10px;
     margin-right: 90px;
     margin-left: 90px;

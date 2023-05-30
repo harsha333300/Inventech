@@ -3,8 +3,13 @@
     margin: 0;
     box-sizing: border-box;
 }
-.container{
-    padding: 40px;
+body{
+    background-color: 
+    
+#f9e6cb!important;
+}
+.container-fluid{
+    padding: 40px !important;
     position: fixed;
     font-family:serif!important;
 }
@@ -12,14 +17,53 @@
     color: black !important;
     margin: 2px;
     margin-right: -5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 
 }
+.containerr.h{
+    padding: 118px;
+    height: 590px;
+    font-family:serif!important;
+    border: 1px solid #edd8d0 !important;
+    margin-left: -12px;
+    background-color:  #f7f0ea;   
+    border-radius: 10px;
+    padding-left: 190px;
+}
+.containers {
+    padding: 118px;
+    height: 590px;
+    font-family:serif!important;
+    /* border-right: 1px solid gray;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray; */
+    /* box-shadow: 0px 0px 4px 1px gray; */
+    border: 1px solid #edd8d0;
+    margin-left: -12px;
+    background-color: 
+    #f7f0ea
+    ;
+    border-radius: 10px;
+}
+.containerrr {
+    padding: 118px;
+    height: 590px;
+    font-family:serif!important;
+    border: 1px solid #edd8d0;
+    margin-left: -12px;
+    background-color: #f7f0ea;
+    border-radius: 10px;
+    padding-left: 194px;
+    padding-right: 0px;
+    
+}
 .nav-link.active{
-    background-color: #f0eaeb !important;
+    background-color: #f7f0ea !important;
     border-left: 6px solid #4EA300 !important;
     margin-right: -13px;
-    border-top: 1px solid gray;
-    border-bottom: 1px solid gray;
+    border-top: 1px solid #edd8d0;
+    border-bottom: 1px solid #edd8d0;
     z-index: 1;
     box-shadow: none !important;
 }
@@ -31,6 +75,7 @@
 }
 .nav-link:hover{
     box-shadow: 0px 0px 3px 2px #b2b2b2;
+    border-radius: 5px ;
 }
 .col-md-3{
     height: 413px;
@@ -74,12 +119,15 @@ h4{
     background-color: #f6f3f4 !important;
 }
 .col-md-4.z{
-    margin-left: -150px;
+    margin-left: 0px;
 }
 .col-md-4.y{
-    margin-right: 121px;
-    margin-left: 140px;
+    margin-right: 70px;
+    margin-left: 89px;
 }
 .col-md-4.x{
-    margin-left: -270px;
+    margin-left: -289px;
+}
+.header{
+    margin-bottom: -28px;
 }

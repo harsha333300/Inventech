@@ -4,6 +4,16 @@
     box-sizing: border-box;
     
 }
+.containerrr {
+    font-family:serif!important;
+    border: 1px solid #edd8d0;
+    margin-left: -12px;
+    background-color: #f7f0ea;
+    border-radius: 10px;
+    padding-left: 194px;
+    padding-right: 0px;
+    
+}
 
 .leftt{
     margin-top: 12px;

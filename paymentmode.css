@@ -22,18 +22,16 @@ body{
 
 }
 .containerr.h{
-    padding: 118px;
-    height: 590px;
+    padding-top: 155px;
+    padding-left: 340px;
+    height: 665px;
     font-family:serif!important;
     border: 1px solid #edd8d0 !important;
     margin-left: -12px;
     background-color:  #f7f0ea;   
     border-radius: 10px;
-    padding-left: 190px;
 }
 .containers {
-    padding: 118px;
-    height: 590px;
     font-family:serif!important;
     /* border-right: 1px solid gray;
     border-top: 1px solid gray;
@@ -45,18 +43,6 @@ body{
     #f7f0ea
     ;
     border-radius: 10px;
-}
-.containerrr {
-    padding: 118px;
-    height: 590px;
-    font-family:serif!important;
-    border: 1px solid #edd8d0;
-    margin-left: -12px;
-    background-color: #f7f0ea;
-    border-radius: 10px;
-    padding-left: 194px;
-    padding-right: 0px;
-    
 }
 .nav-link.active{
     background-color: #f7f0ea !important;

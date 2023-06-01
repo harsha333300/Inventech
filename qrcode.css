@@ -11,36 +11,38 @@
     position: fixed;
     font-family:serif!important;
     padding-left: 112px;
-    border: 1px solid #edd8d0;
+    border: 1px solid #99bdd5;
     margin-left: -12px;
     border-radius: 10px;
-    background-color:  #f7f0ea;
+    background-color:  #c1d5df;
 
 }
 
 .leftt{
-    padding-left: 100px;
-    margin-top: 12px;
-    padding-left: 136px;
+    margin-top: -34px;
+    margin-bottom: 60px;
+    text-align: center;
     padding-bottom: 10px;
 }
 
 .btns-align {
-    color: white;
+    color: #4c8cb5;
     text-align: center;
     margin-top: -18px;
     padding-top: 15px;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 14px;
 }
 button { 
     font-size: 14px !important;
     color: white;
-    background-color: #385bc5;
+    background-color: 
+    #327bab;
     border-radius: 8px !important;
     border: 1px solid ;
     padding: 6px;
     letter-spacing: 1px;
+    border: #4c8cb5;
     font-family: sans-serif!important;
 }
 p {

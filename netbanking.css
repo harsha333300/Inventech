@@ -5,10 +5,10 @@
     border-top: 1px solid gray;
     border-bottom: 1px solid gray; */
     /* box-shadow: 0px 0px 4px 1px gray; */
-    border: 1px solid #edd8d0;
+    border: 1px solid #99bdd5;
     margin-left: -12px;
     background-color: 
-    #f7f0ea
+    #c1d5df
     ;
     border-radius: 10px;
 }
@@ -22,6 +22,7 @@
 }
 .row.h{
     padding-top: 25px;
+    padding-bottom: 25px;
 }
 .h2{
     padding-left: 79px;
@@ -35,17 +36,17 @@
     font-size: 18px;
     border-radius: 8px;
     text-transform: capitalize;
-    width: 376px;
+    width: 352px;
 }
 .buts{
     padding-left: 266px !important;
 }
 .col-md-12{
+    padding-bottom: 20px;
     font-size: medium;
-    padding-left: 230px !important ;
-    width: 64% !important;
-    padding-top: 5px;
-    margin-left: 40px;
+    padding-left: 232px !important;
+    width: 63% !important;
+    margin-left: 33px;
 }
 
 .form-select{
@@ -57,8 +58,7 @@
     font-size: small !important;
 }
 .paragraph{
-    padding-right: 20px !important;
-    padding-top: 12px !important;
+    padding-right: 44px !important;
     font-size: small;
 }
 h5{
@@ -67,9 +67,9 @@ h5{
    
 }
 .net{
+    padding-top: 60px;
     padding-left: 398px;
-    padding-top: 140px;
-    padding-bottom: 8px;
+    padding-bottom: 50px;
 }
 .bc{
     background-color: #dddddd;

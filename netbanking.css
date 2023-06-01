@@ -1,4 +1,17 @@
-
+.containers {
+   height: 590px;
+    font-family:serif!important;
+    /* border-right: 1px solid gray;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray; */
+    /* box-shadow: 0px 0px 4px 1px gray; */
+    border: 1px solid #edd8d0;
+    margin-left: -12px;
+    background-color: 
+    #f7f0ea
+    ;
+    border-radius: 10px;
+}
 
 .text-center{
     justify-content: center;
@@ -25,16 +38,14 @@
     width: 376px;
 }
 .buts{
-   padding-left: 222px !important;
-   margin-top: 8px;
-   padding-top: 5px;
-   
+    padding-left: 266px !important;
 }
 .col-md-12{
     font-size: medium;
-    padding-top: 10px;
-    padding-left: 228px !important ;
+    padding-left: 230px !important ;
     width: 64% !important;
+    padding-top: 5px;
+    margin-left: 40px;
 }
 
 .form-select{
@@ -46,52 +57,56 @@
     font-size: small !important;
 }
 .paragraph{
-    padding-right: 125px !important;
-    padding-top: 15px !important;
-    font-size:small;
-    margin-bottom: -11px;
+    padding-right: 20px !important;
+    padding-top: 12px !important;
+    font-size: small;
 }
 h5{
     font-size:x-small !important;
-    margin-left: -60px;
+    padding-left: 248px;
+   
 }
 .net{
-    padding-left: 348px;
-    padding-bottom: 10px;
+    padding-left: 398px;
+    padding-top: 140px;
+    padding-bottom: 8px;
 }
 .bc{
     background-color: #dddddd;
-    padding: 5px;
-    margin-right: 151px;
-    margin-left: 90px;
+    padding: 4px;
+    margin-left: 248px;
+    
 }
 .bcg{
-
     background-color: #dddddd;
-    padding: 5px;
-    margin-right: 152px;
-    margin-left: 88px
+    padding: 4px;
+    margin-left: 248px;
    ;
 }
 .bcx{
 
     background-color: #dddddd;
-    padding: 5px;
-    margin-left: 94px;
-    padding-right: 31px;
-    margin-right: 157px;
+    padding: 4px;
+    margin-left: 248px;
+}
+.imagee{
+    padding-right: 135%;
+    margin-right: -50px;
+}
+.images{
+    padding-right: 207px;
+    margin-left: 3px;
+   
+}
+.image{
+    padding-left: 5%;
+}
+.col-md-4.x{
+    margin-left: 72px;
+    margin-right: -216px;
+}
+.col-md-4.z{
+    margin-left: -216px;
+}
 
-}
-.containers {
-    font-family:serif!important;
-    /* border-right: 1px solid gray;
-    border-top: 1px solid gray;
-    border-bottom: 1px solid gray; */
-    /* box-shadow: 0px 0px 4px 1px gray; */
-    border: 1px solid #edd8d0;
-    margin-left: -12px;
-    background-color: 
-    #f7f0ea
-    ;
-    border-radius: 10px;
-}
+   

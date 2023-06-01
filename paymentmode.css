@@ -4,9 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: 
-    
-#f9e6cb!important;
+    background-color:#f9e6cb!important;
 }
 .container-fluid{
     padding: 40px !important;
@@ -21,29 +19,6 @@ body{
     border-bottom-left-radius: 5px;
 
 }
-.containerr.h{
-    padding-top: 155px;
-    padding-left: 340px;
-    height: 665px;
-    font-family:serif!important;
-    border: 1px solid #edd8d0 !important;
-    margin-left: -12px;
-    background-color:  #f7f0ea;   
-    border-radius: 10px;
-}
-.containers {
-    font-family:serif!important;
-    /* border-right: 1px solid gray;
-    border-top: 1px solid gray;
-    border-bottom: 1px solid gray; */
-    /* box-shadow: 0px 0px 4px 1px gray; */
-    border: 1px solid #edd8d0;
-    margin-left: -12px;
-    background-color: 
-    #f7f0ea
-    ;
-    border-radius: 10px;
-}
 .nav-link.active{
     background-color: #f7f0ea !important;
     border-left: 6px solid #4EA300 !important;
@@ -52,6 +27,7 @@ body{
     border-bottom: 1px solid #edd8d0;
     z-index: 1;
     box-shadow: none !important;
+
 }
 
 .nav-link.active:hover{
@@ -64,37 +40,10 @@ body{
     border-radius: 5px ;
 }
 .col-md-3{
-    height: 413px;
     flex-direction: column;
     padding: 40px;
     justify-content: space-around;
     font-family:serif!important;
-}
-/* .vl{
-    border-left: 1px solid #ececec;
-    height: 486px;
-    position: absolute;
-    left: 25%;
-    margin-left: 0px;
-    top: -8px;
-    transform: rotateX(45deg);
-    box-shadow: 0px 0px 5px 0px  #c6c6c6, 0px 0px 5px 0px #c6c6c6;
-   
-} */
-.imagee{
-    padding-right: 135%;
-    margin-right: -50px;
-}
-.images{
-    padding-right: 207px;
-    margin-left: 3px;
-   
-}
-.image{
-    padding-left: 5%;
-}
-.col-md-3{
-    height: 300px;
 }
 
 h4{
@@ -104,16 +53,7 @@ h4{
 .nav-link{
     background-color: #f6f3f4 !important;
 }
-.col-md-4.z{
-    margin-left: 0px;
-}
-.col-md-4.y{
-    margin-right: 70px;
-    margin-left: 89px;
-}
-.col-md-4.x{
-    margin-left: -289px;
-}
+
 .header{
     margin-bottom: -28px;
 }

@@ -5,10 +5,9 @@
 }
 
 .containerrr {
-    height: 590px;
-    width:928px;
+    width: 66%;
+    height: 530px;
     position: fixed;
-    font-family:serif!important;
     padding-left: 112px;
     border: 1px solid #99bdd5;
     margin-left: -12px;
@@ -18,10 +17,9 @@
 }
 
 .leftt{
-    margin-top: -34px;
-    margin-bottom: 60px;
+    padding-top: 36px;
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 47px;
 }
 
 .btns-align {
@@ -42,14 +40,14 @@ button {
     padding: 6px;
     letter-spacing: 1px;
     border: #4c8cb5;
-    font-family: sans-serif!important;
 }
 p {
     text-align: center;
     margin-top: -8px !important;
 }
 .col-lg-12{
-    width: 75% !important;
-    padding-top: 100px;
-    padding-left: 75px !important;
+    width: 77% !important;
+}
+.row.c{
+    padding-left: 28px;
 }

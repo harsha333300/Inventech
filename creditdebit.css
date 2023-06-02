@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 .containerr.h{
-    padding-left: 30px;
-    height: 590px;
-    font-family:serif!important;
+    width: 99%;
+    height: 530px;
+    padding-left: 230px;
     border: 1px solid #99bdd5!important;
     margin-left: -12px;
     background-color:  #c1d5df;   
@@ -30,12 +30,12 @@ button {
     border: 1px solid ;
     padding: 8px;
     letter-spacing: 1px;
-    font-family: sans-serif!important;
 }
 
 .second-row {
     padding-bottom: 13px;
     display: flex;
+    margin-right: -13px;
 }
 
 .a {
@@ -91,7 +91,6 @@ p {
 h6 {
     font-size: 13px !important;
     width: 267px;
-    font-family: sans-serif!important;
 }
 
 h2 {
@@ -101,7 +100,8 @@ h2 {
 }
 .ad{
    text-align: center;
-   padding-top: 60px;
+   padding-top: 36px;
+   padding-right: 128px;
  
 }
 .align{

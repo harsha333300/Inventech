@@ -1,12 +1,8 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+
 .containerr.h{
-    width: 99%;
-    height: 530px;
-    padding-left: 230px;
+    width: 96%;
+    height: 528px;
+    padding-left: 206px;
     border: 1px solid #99bdd5!important;
     margin-left: -12px;
     background-color:  #c1d5df;   
@@ -53,11 +49,11 @@ a{
 }
 
 .first-row {
-    padding-top: 70px;
+    padding-top: 55px;
     padding-bottom: 13px;
 }
 .fourth-row {
-    padding-bottom: 15px;
+    padding-bottom: 13px;
 }
 input {
     padding: 12px;
@@ -89,7 +85,7 @@ p {
 }
 
 h6 {
-    font-size: 13px !important;
+    font-size: 12px !important;
     width: 267px;
 }
 

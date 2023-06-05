@@ -4,7 +4,6 @@ body{
 }
 .container-fluid{
     padding: 70px !important;
-    position: fixed;
     font-family: 'Roboto' !important;
 }
 .nav-link{
@@ -13,7 +12,6 @@ body{
     margin-right: -6px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-   
 
 }
 .nav-link.active{

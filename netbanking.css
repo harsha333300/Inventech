@@ -1,6 +1,6 @@
 .containers {
-    width: 96%;
-    height: 528px;
+    width: 98%;
+    height: 529px;
     border: 1px solid #99bdd5;
     margin-left: -12px;
     background-color: 
@@ -16,8 +16,8 @@
     margin-top: -10px;
 }
 .row.h{
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .h2{
     padding-left: 79px;
@@ -28,21 +28,21 @@
     text-align: center;
     text-transform: uppercase;
     padding: 9px;
-    font-size: 18px;
+    font-size: 16px;
     border-radius: 8px;
     text-transform: capitalize;
-    width: 352px;
+    width: 393px;
 }
 .buts{
-    padding-left: 232px !important;
+    padding-left: 225px !important;
     margin-top: -6px;
 }
 .col-md-12{
     padding-bottom: 9px;
     font-size: medium;
-    padding-left: 199px !important;
-    width: 68% !important;
-    margin-left: 33px;
+    padding-left: 193px !important;
+    width: 70% !important;
+    margin-left: 31px;
 }
 
 .form-select{
@@ -55,7 +55,7 @@
 }
 .paragraph{
     padding-right: 61px !important;
-    font-size: 11px;
+    font-size: 12px;
 }
 h5{
     font-size:x-small !important;
@@ -64,28 +64,28 @@ h5{
 }
 .net{
     padding-top: 36px;
-    padding-left: 360px;
-    padding-bottom: 70px;
+    padding-left: 374px;
+    padding-bottom: 65px;
 }
 .bc{
     background-color: #dddddd;
     padding: 3px;
     margin-left: 260px;
-    margin-right: -40px;
+    margin-right: -28px;
     
 }
 .bcg{
     background-color: #dddddd;
     padding: 3px;
     margin-left: 260px;
-    margin-right: -40px;
+    margin-right: -28px;
 }
 .bcx{
 
     background-color: #dddddd;
     padding: 3px;
     margin-left: 260px;
-    margin-right: -41px;
+    margin-right: -28px;
 }
 .imagee{
     padding-right: 135%;

@@ -1,8 +1,9 @@
 /* net Banking */
 .containers {
-    width: 500px;
+    width: 496px;
+    height: 435px;
     padding: 50px;
-    margin-top: -18px;
+    margin-top: -19px;
     border: 1px solid #99bdd5;
     background-color:  #c1d5df;
     border-radius: 10px;
@@ -56,36 +57,27 @@ h5{
 .bc{
     background-color: #dddddd;
     padding: 3px;
-    
-    
+    text-align: center;
 }
 .bcg{
     background-color: #dddddd;
     padding: 3px;
-  
+    text-align: center;
 }
 .bcx{
 
     background-color: #dddddd;
     padding: 3px;
-    
+    text-align: center;
 }
 
-/* .col-md-1.x{
-    margin-left: 54px;
-    margin-right: -204px;
-}
-.col-md-1.z{
-    margin-left: -204px;
-} */
-
-   
 
 /* credit 
 */
 .containerr.h{
     width: 500px;
-    margin-top: -18px;
+    height: 435px;
+    margin-top: -30px;
     padding: 50px;
     border: 1px solid #99bdd5!important;
     background-color:  #c1d5df;   
@@ -234,7 +226,7 @@ h4{
 
 .header{
     margin-bottom: -28px;
-    padding-left: 3px;
+    padding-left: 247px;
 }
 .border.inner-container{
     border: none !important;
@@ -247,10 +239,10 @@ h4{
 }
 
 
-
 /* Qr code */
 .containerrr {
     margin-top: -18px;
+    height: 435px;
     border: 1px solid #99bdd5;
     border-radius: 10px;
     background-color:  #c1d5df;
@@ -259,7 +251,7 @@ h4{
 }
 .leftt{
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 }
 
 .btns-align {
@@ -279,4 +271,10 @@ button {
 }
 p {
     text-align: center;
+}
+h5{
+    text-align: center;
+}
+.spacing{
+    width: 394px;
 }

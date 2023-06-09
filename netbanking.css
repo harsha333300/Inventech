@@ -1,10 +1,9 @@
 .containers {
-    width: 98%;
-    height: 529px;
+    width: 500px;
+    padding: 50px;
+    margin-top: -18px;
     border: 1px solid #99bdd5;
-    margin-left: -12px;
-    background-color: 
-    #c1d5df;
+    background-color:  #c1d5df;
     border-radius: 10px;
 }
 
@@ -31,20 +30,8 @@
     font-size: 16px;
     border-radius: 8px;
     text-transform: capitalize;
-    width: 393px;
+    width: 100%;
 }
-.buts{
-    padding-left: 225px !important;
-    margin-top: -6px;
-}
-.col-md-12{
-    padding-bottom: 9px;
-    font-size: medium;
-    padding-left: 193px !important;
-    width: 70% !important;
-    margin-left: 31px;
-}
-
 .form-select{
     text-align: center;
     padding-top: 7px !important;
@@ -54,57 +41,41 @@
     font-size: small !important;
 }
 .paragraph{
-    padding-right: 61px !important;
+    padding-top: 10px;
     font-size: 12px;
 }
 h5{
     font-size:x-small !important;
-    padding-left: 265px;
    
 }
 .net{
-    padding-top: 36px;
-    padding-left: 374px;
+    text-align: center;
     padding-bottom: 65px;
 }
 .bc{
     background-color: #dddddd;
     padding: 3px;
-    margin-left: 260px;
-    margin-right: -28px;
+    
     
 }
 .bcg{
     background-color: #dddddd;
     padding: 3px;
-    margin-left: 260px;
-    margin-right: -28px;
+  
 }
 .bcx{
 
     background-color: #dddddd;
     padding: 3px;
-    margin-left: 260px;
-    margin-right: -28px;
+    
 }
-.imagee{
-    padding-right: 135%;
-    margin-right: -35px;
-}
-.images{
-    padding-right: 207px;
-    margin-left: 3px;
-   
-}
-.image{
-    padding-left: 5%;
-}
-.col-md-4.x{
+
+/* .col-md-1.x{
     margin-left: 54px;
     margin-right: -204px;
 }
-.col-md-4.z{
+.col-md-1.z{
     margin-left: -204px;
-}
+} */
 
    

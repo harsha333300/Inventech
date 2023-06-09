@@ -1,8 +1,93 @@
-.containerr.h{
+/* net Banking */
+.containers {
+    width: 500px;
+    padding: 50px;
+    margin-top: -18px;
+    border: 1px solid #99bdd5;
+    background-color:  #c1d5df;
+    border-radius: 10px;
+}
+
+.text-center{
+    justify-content: center;
+}
+.col-md-4{
+    text-align: center;
+    margin-top: -10px;
+}
+.row.h{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.h2{
+    padding-left: 79px;
+    padding-bottom: 6px;
+}
+.b {
+    background-color: #fd423d;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 9px;
+    font-size: 16px;
+    border-radius: 8px;
+    text-transform: capitalize;
     width: 100%;
-    height: 529px;
+}
+.form-select{
+    text-align: center;
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+    padding-right: 140px !important;
+    padding-left: 130px !important;
+    font-size: small !important;
+}
+.paragraph{
+    padding-top: 10px;
+    font-size: 12px;
+}
+h5{
+    font-size:x-small !important;
+   
+}
+.net{
+    text-align: center;
+    padding-bottom: 65px;
+}
+.bc{
+    background-color: #dddddd;
+    padding: 3px;
+    
+    
+}
+.bcg{
+    background-color: #dddddd;
+    padding: 3px;
+  
+}
+.bcx{
+
+    background-color: #dddddd;
+    padding: 3px;
+    
+}
+
+/* .col-md-1.x{
+    margin-left: 54px;
+    margin-right: -204px;
+}
+.col-md-1.z{
+    margin-left: -204px;
+} */
+
+   
+
+/* credit 
+*/
+.containerr.h{
+    width: 500px;
+    margin-top: -18px;
+    padding: 50px;
     border: 1px solid #99bdd5!important;
-    margin-left: -12px;
     background-color:  #c1d5df;   
     border-radius: 10px;
 }
@@ -94,10 +179,104 @@ h2 {
 }
 .ad{
    text-align: center;
-   padding-top: 36px;
-   padding-right: 150px;
  
 }
 .align{
     margin-left: 8px;
+}
+
+/* payment */
+body{
+    background-color:#eff4f7!important;
+}
+.container-fluid{
+    padding: 30px !important;
+    font-family: 'Roboto' !important;
+    height: 100%;
+    font-size: 14px;
+}
+.nav-link{
+    color: black !important;
+    margin: 2px;
+    margin-right: -6px;
+    border-top-left-radius: 5px !important;
+    border-bottom-left-radius: 5px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+
+}
+.nav-link.active{
+    background-color: #c1d5df!important;
+    border-left: 6px solid #4EA300 !important;
+    margin-right: -17px;
+    border-top: 1px solid #99bdd5;
+    border-bottom: 1px solid #99bdd5;
+    z-index: 1;
+    box-shadow: none !important;
+
+}
+.nav-link.active:hover{
+    background-color:#c1d5df !important;
+    font-weight: bold;
+    z-index: 1;
+}
+.nav-link:hover{
+    box-shadow: 0px 0px 3px 2px #b2b2b2;
+}
+
+h4{
+    font-size: 14px !important;
+    font-weight: bold !important;
+}
+.nav-link{
+    background-color: #f7fafb !important;
+}
+
+.header{
+    margin-bottom: -28px;
+    padding-left: 3px;
+}
+.border.inner-container{
+    border: none !important;
+    padding: 50px;
+
+}
+.inner-container{
+    width: 920px;
+    height: 500px;
+}
+
+
+
+/* Qr code */
+.containerrr {
+    margin-top: -18px;
+    border: 1px solid #99bdd5;
+    border-radius: 10px;
+    background-color:  #c1d5df;
+    padding: 50px;
+
+}
+.leftt{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.btns-align {
+    color: #4c8cb5;
+    text-align: center;
+}
+button { 
+    font-size: 14px !important;
+    color: white;
+    background-color: 
+    #327bab;
+    border-radius: 8px !important;
+    border: 1px solid ;
+    padding: 6px;
+    letter-spacing: 1px;
+    border: #4c8cb5;
+}
+p {
+    text-align: center;
 }

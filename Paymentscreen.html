@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-    
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="paymentmode.css">
-    <link rel="stylesheet" href="netbanking.css">
-    <link rel="stylesheet" href="qrcode.css">
+    <link rel="stylesheet" href="creditdebit.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
@@ -20,141 +17,125 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Payment Screen</title>
 </head>
-
 <body>
     <div class="container-fluid">
-        <div class="header">
-            <h4>Choose Payment Mode</h4>
-        </div>
-        <div class="row">
-                <div class="col-md-3">
-                    <div class="nav flex-column" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+        <div class="border inner-container">
+            <div class="row">
+                <div class="col-md-sm-lg-xs-12 offset-md-3 p-5">
+                    <div class="d-flex align-items-start">
+                        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                         <a href="#v-pills-home" class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
                             role="tab">Credit/Debit Card</a>
                         <a href="#v-pills-about" class="nav-link" id="v-pills-about-tab" data-bs-toggle="pill"
                             role="tab">Net Banking</a>
                         <a href="#v-pills-contact" class="nav-link" id="v-pills-contact-tab" data-bs-toggle="pill"
                             role="tab">QR Code</a>
-                    </div>
-                </div>
-                <div class="col-md-9">
-                    <div class="tab-content" id="v-pills-tabContent">
-                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
-                            aria-labelledby="v-pills-home-tab">
-                            <div class="containerr h">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="ad">
-                                            <h2 class="text-center">Payment</h2>
-                                        </div>
-                                        <div class="first-row">
+                          <!-- <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Credit/Debit Card</button>
+                          <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Net Banking</button>
+                          <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">QR Code</button> -->
+                        </div>
+                        <div class="tab-content" id="v-pills-tabContent">
+                          <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab"> <div class="containerr h">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="ad">
+                                        <h2 class="text-center">Payment</h2>
+                                    </div>
+                                    <div class="first-row">
+                                        <input
+                                            style="font-family:'Font Awesome 5 Free';font-weight: 100; width: 230px;"
+                                            type="text" placeholder="&#xf09d;   card number"
+                                            onfocus="this.placeholder = ''"
+                                            onblur="this.placeholder = '&#xf09d;   card number'">
+                                    </div>
+                                    <div class="second-row">
+                                        <input
+                                            style="font-family:'Font Awesome 5 Free';font-weight: 100; width: 230px; "
+                                            type="text" placeholder="&#xf073;    MM/DD"
+                                            onfocus="this.placeholder = ''"
+                                            onblur="this.placeholder = '&#xf073;   MM/DD'">
+                                        <div class="align">
                                             <input
-                                                style="font-family:'Font Awesome 5 Free';font-weight: 100; width: 230px;"
-                                                type="text" placeholder="&#xf09d;   card number"
+                                                style="font-family:'Font Awesome 5 Free';font-weight: 700; width: 110px;"
+                                                type="password" placeholder="&#xf084;   CVV"
                                                 onfocus="this.placeholder = ''"
-                                                onblur="this.placeholder = '&#xf09d;   card number'">
+                                                onblur="this.placeholder = '&#xf084;   CVV'">
                                         </div>
-                                        <div class="second-row">
-                                            <input
-                                                style="font-family:'Font Awesome 5 Free';font-weight: 100; width: 230px; "
-                                                type="text" placeholder="&#xf073;    MM/DD"
-                                                onfocus="this.placeholder = ''"
-                                                onblur="this.placeholder = '&#xf073;   MM/DD'">
-                                            <div class="align">
-                                                <input
-                                                    style="font-family:'Font Awesome 5 Free';font-weight: 700; width: 110px;"
-                                                    type="password" placeholder="&#xf084;   CVV"
-                                                    onfocus="this.placeholder = ''"
-                                                    onblur="this.placeholder = '&#xf084;   CVV'">
-                                            </div>
-                                        </div>
+                                    </div>
 
-                                        <div class="third-row">
-                                            <input type="checkbox" id="check">
-                                            <label for="check">Remember me</label>
-                                        </div>
-                                        <div class="phno">
-                                            <h6>For security please enter your mobile number:</h6>
-                                        </div>
-                                        <div class="fourth-row">
-                                            <input
-                                                style="font-family:'Font Awesome 5 Free';font-weight: 700; width: 230px;"
-                                                type="text" placeholder="&#xf3ce;   +91" name="country code"
-                                                onfocus="this.placeholder = ''"
-                                                onblur="this.placeholder = '&#xf3ce;   +91'" />
-                                        </div>
-                                        <div class="a">
-                                            <a href="" style="color: white;">Pay</a>
-                                        </div>
+                                    <div class="third-row">
+                                        <input type="checkbox" id="check">
+                                        <label for="check">Remember me</label>
+                                    </div>
+                                    <div class="phno">
+                                        <h6>For security please enter your mobile number:</h6>
+                                    </div>
+                                    <div class="fourth-row">
+                                        <input
+                                            style="font-family:'Font Awesome 5 Free';font-weight: 700; width: 230px;"
+                                            type="text" placeholder="&#xf3ce;   +91" name="country code"
+                                            onfocus="this.placeholder = ''"
+                                            onblur="this.placeholder = '&#xf3ce;   +91'" />
+                                    </div>
+                                    <div class="a">
+                                        <a href="" style="color: white;">Pay</a>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="tab-pane fade" id="v-pills-about" role="tabpanel"
-                            aria-labelledby="v-pills-home-tab">
+                        </div></div>
+                          <div class="tab-pane fade" id="v-pills-about" role="tabpanel" aria-labelledby="v-pills-profile-tab">
                             <div class="containers">
                                 <div class="net">
                                     <h4>Net Banking</h4>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-4 x">
+                                    <div class="col-md-2 offset-md-3 x">
                                         <div class="bc">
-                                            <div class="image">
                                                 <img src="data:image/jpeg;base64,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"
                                                     alt="" width="20px" height="20px">
-                                            </div>
                                         </div>
                                         <h5>KAR</h5>
                                     </div>
-                                    <div class="col-md-4 y">
+                                    <div class="col-md-2 y">
                                         <div class="bcg">
-                                            <div class="imagee">
                                                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Citi.svg/2560px-Citi.svg.png"
                                                     alt="" width="20px" height="20px">
-                                            </div>
                                         </div>
                                         <h5>CITI</h5>
                                     </div>
-                                    <div class="col-md-4 z">
+                                    <div class="col-md-2 z">
                                         <div class="bcx">
-                                            <div class="images">
                                                 <img src="https://w7.pngwing.com/pngs/636/81/png-transparent-hdfc-thumbnail-bank-logos.png"
                                                     alt="" width="20px" height="20px">
-                                            </div>
                                         </div>
                                         <h5>HDFC</h5>
                                     </div>
                                 </div>
                                 <div class="row h">
-                                    <div class="col-md-4 x">
+                                    <div class="col-md-2 offset-md-3 x">
                                         <div class="bc">
-                                            <div class="image">
                                                 <img src="https://grdp.co/cdn-cgi/image/width=500,height=500,quality=50,f=auto/https://gs-post-images.grdp.co/2020/6/71-718369_download-icici-bank-logo-hd-png-clipart-2-img1592917535563-78.png-rs-high-webp.png"
                                                     alt="" width="20px" height="20px">
-                                            </div>
                                         </div>
                                         <h5>ICICI</h5>
                                     </div>
-                                    <div class="col-md-4 y">
+                                    <div class="col-md-2 y">
                                         <div class="bcg">
-                                            <div class="imagee">
                                                 <img src="https://1000logos.net/wp-content/uploads/2021/06/Bank-of-Baroda-icon.png"
                                                     alt="" width="20px" height="20px">
-                                            </div>
                                         </div>
                                         <h5>BOB</h5>
                                     </div>
-                                    <div class="col-md-4 z">
+                                    <div class="col-md-2 z">
                                         <div class="bcx">
-                                            <div class="images">
                                                 <img src="https://upload.wikimedia.org/wikipedia/ml/thumb/c/cc/SBI-logo.svg/500px-SBI-logo.svg.png"
                                                     alt="" width="20px" height="20px">
-                                            </div>
+
                                         </div>
                                         <h5>SBI</h5>
                                     </div>
                                 </div>
-                                <div class="col-md-12">
+                                <div class="col-md-12 ">
                                     <select class="form-select">
                                         <option selected>Other Bank</option>
                                         <option value="1">Cenara Bank</option>
@@ -172,16 +153,16 @@
                                 </div>
 
                             </div>
-                        </div>
-                        <div class="tab-pane fade" id="v-pills-contact" role="tabpanel"
-                            aria-labelledby="v-pills-home-tab">
+
+                          </div>
+                          <div class="tab-pane fade" id="v-pills-contact" role="tabpanel" aria-labelledby="v-pills-messages-tab">
                             <div class="containerrr">
                                 <div class="row c">
                                     <div class="col-lg-12">
                                         <div class="leftt">
                                             <h2>QR Code</h2>
                                         </div>
-                                        <p><img src="Harsha B S.png" alt="" width="100%" height="220px"></p>
+                                        <p><img class="color" src="Harsha B S.png" alt="" width="100%" height="220px"></p>
                                         <div class="btns-align">
                                             <button type="button"><i class="fa-solid fa-share-nodes fa-lg"></i>
                                                 Share</button>
@@ -190,11 +171,15 @@
                                 </div>
                             </div>
                         </div>
+                          </div>
+                        </div>
+                      </div>
 
-                    </div>
                 </div>
-            </div>
-        </div>
-</body>
 
+            </div>
+
+        </div>
+    </div>
+</body>
 </html>

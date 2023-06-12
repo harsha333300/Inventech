@@ -1,9 +1,9 @@
 /* net Banking */
 .containers {
     width: 496px;
-    height: 435px;
-    padding: 50px;
-    margin-top: -19px;
+    height: 350px;
+    padding: 78px;
+    margin-top: -30px;
     border: 1px solid #99bdd5;
     background-color:  #c1d5df;
     border-radius: 10px;
@@ -17,43 +17,38 @@
     margin-top: -10px;
 }
 .row.h{
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 .h2{
     padding-left: 79px;
-    padding-bottom: 6px;
+    padding-bottom: 3px;
 }
 .b {
     background-color: #fd423d;
     text-align: center;
     text-transform: uppercase;
-    padding: 9px;
-    font-size: 16px;
+    padding: 6px;
+    font-size: 14px;
     border-radius: 8px;
     text-transform: capitalize;
-    width: 100%;
+    width: 66%;
 }
 .form-select{
     text-align: center;
     padding-top: 7px !important;
     padding-bottom: 7px !important;
-    padding-right: 140px !important;
-    padding-left: 130px !important;
     font-size: small !important;
 }
 .paragraph{
-    padding-top: 10px;
-    font-size: 12px;
+    padding-top: 3px;
+    font-size: 11px;
 }
 h5{
     font-size:x-small !important;
    
 }
-.net{
-    text-align: center;
-    padding-bottom: 65px;
-}
+
 .bc{
     background-color: #dddddd;
     padding: 3px;
@@ -70,24 +65,22 @@ h5{
     padding: 3px;
     text-align: center;
 }
-
+.buts{
+    padding-left: 84px;
+    margin-top: -11px
+}
 
 /* credit 
 */
 .containerr.h{
     width: 500px;
-    height: 435px;
+    height: 350px;
     margin-top: -30px;
-    padding: 50px;
+    padding: 78px;
     border: 1px solid #99bdd5!important;
     background-color:  #c1d5df;   
     border-radius: 10px;
 }
-
-.left{
-    padding-left: 148px;
-}
-
 .btnn-align {
     
     color: white;
@@ -104,9 +97,8 @@ button {
 }
 
 .second-row {
-    padding-bottom: 13px;
+    padding-bottom: 15px;
     display: flex;
-    margin-right: -13px;
 }
 
 .a {
@@ -114,21 +106,20 @@ button {
     text-align: center;
     text-transform: uppercase;
     padding: 9px;
-    font-size: 16px;
-    width: 400px;
+    font-size: 14px;
     border-radius: 8px;
-    width: 400px !important;
+    width: 110px;
+    margin-left: 9px;
 }
 a{
     text-decoration: none !important;
 }
 
 .first-row {
-    padding-top: 45px;
-    padding-bottom: 13px;
+    padding-bottom: 15px;
 }
 .fourth-row {
-    padding-bottom: 13px;
+    display: flex;
 }
 input {
     padding: 12px;
@@ -138,15 +129,12 @@ input {
     font-size: 10px !important;
 
 }
-
-.phno {
-    color: black;
-    padding-top: 8px;
-    padding-bottom: 8px;
+.third-row{
+    padding-bottom: 15px;
 }
 
 label {
-    font-weight: unset;
+    font-size: 12px;
 }
 
 p {
@@ -225,8 +213,9 @@ h4{
 }
 
 .header{
-    margin-bottom: -28px;
-    padding-left: 247px;
+    padding-bottom: 34px;
+    padding-left: 468px;
+    text-align: center;
 }
 .border.inner-container{
     border: none !important;
@@ -241,17 +230,14 @@ h4{
 
 /* Qr code */
 .containerrr {
-    margin-top: -18px;
-    height: 435px;
+    width: 496px;
+    padding: 52px;
+    margin-top: -30px;
     border: 1px solid #99bdd5;
     border-radius: 10px;
     background-color:  #c1d5df;
-    padding: 50px;
 
-}
-.leftt{
-    text-align: center;
-    padding-bottom: 30px;
+
 }
 
 .btns-align {
@@ -259,15 +245,14 @@ h4{
     text-align: center;
 }
 button { 
-    font-size: 14px !important;
+    font-size: 12px !important;
     color: white;
     background-color: 
     #327bab;
     border-radius: 8px !important;
     border: 1px solid ;
-    padding: 6px;
-    letter-spacing: 1px;
     border: #4c8cb5;
+    text-transform: capitalize !important;
 }
 p {
     text-align: center;
@@ -276,5 +261,6 @@ h5{
     text-align: center;
 }
 .spacing{
-    width: 394px;
+    width: 338px;
+    padding-left: 50px;
 }

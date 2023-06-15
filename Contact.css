@@ -1,0 +1,53 @@
+.nav {
+    padding-top: 5px;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    border-top: #00829c solid 3px;
+    background-image: url(http://www.inventechinfo.com/images/bg.jpg);
+    font-family: 'Roboto' !important;
+   }
+  
+  .nav-item {
+    padding-left: 8px;
+  }
+  
+  .h {
+    text-decoration-color: orange;
+  }
+  a{
+    text-decoration: none !important;
+  }
+  .justify-content-right {
+    padding-top: 20px;
+  }
+  li {
+    padding: 7px;
+    padding-top: 18px;
+    font-size: 14px !important;
+  }
+  .background {
+    width: 100%;
+    height: 143px;
+    background: url(http://www.inventechinfo.com/images/bg_inner.png);
+    margin-top: 30px;
+}
+.heading {
+    position: absolute;
+    bottom: 0px;
+    left: 80px;
+    font-weight: 600 !important;
+}
+.back-image {
+    width: 1095px;
+    height: 141px;
+    margin: 0px auto;
+    position: relative;
+}
+.image{
+    right: 20px;
+    bottom: 0px;
+    position: absolute;
+}

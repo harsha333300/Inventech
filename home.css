@@ -8,7 +8,7 @@ body {
   padding: 0;
   border-top: #00829c solid 3px;
   background-image: url(http://www.inventechinfo.com/images/bg.jpg);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto' !important;
  }
 
 .nav-item {
@@ -139,10 +139,6 @@ body {
 }
 .instab{
   color: rgb(209, 60, 85);
-  background-color: white;
-}
-.goo{
-  color: #2aa4f5;
   background-color: white;
 }
 .fbb{

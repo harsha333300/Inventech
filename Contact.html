@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,6 +17,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Contact</title>
 </head>
+
 <body>
     <div class="navadj">
         <nav class="navbar">
@@ -83,24 +85,65 @@
 
     </div>
     <div class="container">
-        <div class="header">
-            <h3>Enquiry Form</h3>
+        <div class="col-md-6">
+            <div class="header">
+                <h4>Enquiry Form <i class="fa-solid fa-pen-to-square fa-xs"
+                        style="color: #49bcd0; padding-left: 42px;"></i>
+                </h4>
+            </div>
+            <hr>
+            <div class="first-row">
+                <p>Name :</p>
+                <input style="font-family:'Font Awesome 5 Free';font-weight: 700; width: 230px;" type="text"
+                    placeholder="&#xf007;   Name" onfocus="this.placeholder = ''"
+                    onblur="this.placeholder = '&#xf007;   Name'">
+            </div>
+            <div class="second-row">
+                <p>Mobile No :</p>
+                <input style="font-family:'Font Awesome 5 Free';font-weight: 700; width: 230px;" type="text"
+                    placeholder="&#xf095;   Mobile Number" onfocus="this.placeholder = ''"
+                    onblur="this.placeholder = '&#xf095;   Mobile Number'">
+            </div>
+            <div class="third-row">
+                <p>Email :</p>
+                <input style="font-family:'Font Awesome 5 Free';font-weight: 700; width: 230px;" type="text"
+                    placeholder="&#xf0e0;   Email" onfocus="this.placeholder = ''"
+                    onblur="this.placeholder = '&#xf0e0;   Email'">
+            </div>
+            <div class="fourth-row">
+                <p>Enquiry Type :</p>
+                <select class="form-select">
+                    <option selected>Select enquiry type</option>
+                    <option value="1">Training</option>
+                    <option value="2">Development</option>
+                    <option value="3">Other services</option>
+                </select>
+            </div>
+            <div class="fifth-row">
+                <p>Comments :</p>
+                <input type="text" placeholder="comments" class="comments">
+            </div>
+            <div class="sixth-row">
+                <button type="button">Submit</button>
+            </div>
         </div>
-        <hr>    
-        <div class="first-row">
-            <p>Name :</p>
-            <input style="font-family:'Font Awesome 5 Free';font-weight: 700; width: 230px;" type="text"
-                placeholder="&#xf007;   Name" onfocus="this.placeholder = ''"
-                onblur="this.placeholder = '&#xf007;   Name'">
-        </div>
-        <div class="first-row">
-            <p>Mobile No :</p>
-            <input style="font-family:'Font Awesome 5 Free';font-weight: 700; width: 230px;" type="text"
-                placeholder="&#xf095;   Mobile Number" onfocus="this.placeholder = ''"
-                onblur="this.placeholder = '&#xf095;   Mobile Number'">
-        </div>
-        
+        <div class="col-md-6">
+            <div class="header-2">
+                <h4>Contact Address <i class="fa-solid fa-address-book fa-xs" style="color: #4394a8; padding-left: 42px;" ></i></h4>
+            </div>
+            <hr>
+            <div>
+                <h6>INVENTECH INFO SOLUTIONS PVT. LTD.</h6>
+                <p>#296/D/2/56, 2nd Floor, 9th Main Road,<br>5th Block, Jayanagar,
+                <br>Bangalore – 560 011</p>
 
+                <p>Phone: +91 80 2653 5959/4170 1276 <br>
+                    Fax: +91 80 4170 1276 <br>
+                    Mobile: +91 99000 25200-205 <br>
+                    E-mail:<a href="mailto:contactus@inventechinfo.com" style="color: #00829c;">contactus@inventechinfo.com</a></p>
+            </div>
+        </div>
     </div>
 </body>
+
 </html>

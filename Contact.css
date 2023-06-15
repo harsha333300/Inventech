@@ -1,3 +1,4 @@
+
 .nav {
     padding-top: 5px;
   }
@@ -50,4 +51,82 @@
     right: 20px;
     bottom: 0px;
     position: absolute;
+}
+  .fbb{
+    color: blue;
+    background-color: white;
+  
+  }
+  .p-6{
+    padding-right: 70px;
+  }
+  
+  .tww{
+    color: #37c8d3;
+    background-color: white;
+    padding-left: 10px;
+  }
+  .lnn{
+    color:rgb(21, 21, 151);
+    background-color: white;
+    padding-left: 10px;
+  }
+  .instaa{
+    color: rgb(189, 80, 98);
+    background-color: white;
+    padding-left: 10px;
+  }
+  
+h5{
+    text-align: justify;
+    font-size: 16px !important;
+    top: 20px;
+}
+
+.copy{
+  padding: 15px;
+  padding-right: 266px;
+  font-size: 14px !important;
+}
+.fba{
+  color: rgb(39, 39, 240);
+  
+}
+.twb{
+  color: #12dbe9;
+  
+}
+.lnb{
+  color:rgb(25, 25, 192);
+  
+}
+.instab{
+  color: rgb(209, 60, 85);
+ 
+}
+
+a:hover{
+  background-color: white ;
+  color:#33636d !important;
+
+}
+a{
+  color: white !important;
+  padding: 10px;
+}
+.spacing{
+  padding-right: 280px;
+}
+.nav-itemm{
+  padding-left: 0px;
+}
+.header{
+    padding-top: 30px;
+    color: rgb(204, 95, 55);
+}
+h3{
+    font-weight: bold !important;
+}
+hr{
+    width: 380px;
 }

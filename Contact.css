@@ -1,193 +1,246 @@
-
 .nav {
-    padding-top: 5px;
-  }
-  
-  body {
-    margin: 0;
-    padding: 0;
-    border-top: #00829c solid 3px;
-    background-image: url(http://www.inventechinfo.com/images/bg.jpg);
-    font-family: 'Roboto' !important;
-   }
-  
-  .nav-item {
-    padding-left: 8px;
-  }
-  
-  .h {
-    text-decoration-color: orange;
-  }
-  a{
-    text-decoration: none !important;
-  }
-  .justify-content-right {
-    padding-top: 20px;
-  }
-  li {
-    padding: 7px;
-    padding-top: 18px;
-    font-size: 14px !important;
-  }
-  .background {
-    width: 100%;
-    height: 143px;
-    background: url(http://www.inventechinfo.com/images/bg_inner.png);
-    margin-top: 30px;
-}
-.heading {
-    position: absolute;
-    bottom: 0px;
-    left: 80px;
-    font-weight: 600 !important;
-}
-.back-image {
-    width: 1095px;
-    height: 141px;
-    margin: 0px auto;
-    position: relative;
-}
-.image{
-    right: 20px;
-    bottom: 0px;
-    position: absolute;
-}
-  .fbb{
-    color: blue;
-    background-color: white;
-  
-  }
-  .p-6{
-    padding-right: 70px;
-  }
-  
-  .tww{
-    color: #37c8d3;
-    background-color: white;
-    padding-left: 10px;
-  }
-  .lnn{
-    color:rgb(21, 21, 151);
-    background-color: white;
-    padding-left: 10px;
-  }
-  .instaa{
-    color: rgb(189, 80, 98);
-    background-color: white;
-    padding-left: 10px;
-  }
-  
-h3{
-    text-align: justify;
-    font-size: 16px !important;
-    top: 20px;
+  padding-top: 5px;
 }
 
-.copy{
-  padding: 15px;
+.navadj {
+  padding-bottom: 25px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  border-top: #00829c solid 3px;
+  background-image: url(http://www.inventechinfo.com/images/bg.jpg);
+  font-family: 'Roboto' !important;
+}
+
+.nav-item {
+  padding-left: 8px;
+}
+
+.h {
+  text-decoration-color: orange;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.justify-content-right {
+  padding-top: 20px;
+}
+
+li {
+  padding: 7px;
+  padding-top: 18px;
+  font-size: 14px !important;
+}
+
+.background {
+  width: 100%;
+  background: url(http://www.inventechinfo.com/images/bg_inner.png);
+
+}
+
+.heading {
+  position: absolute;
+  bottom: 0px;
+  left: 80px;
+  font-weight: 600 !important;
+}
+
+.back-image {
+  width: 1095px;
+  height: 141px;
+  margin: 0px auto;
+  position: relative;
+}
+
+.image {
+  right: 20px;
+  bottom: 0px;
+  position: absolute;
+}
+
+.fbb {
+  color: blue;
+  background-color: white;
+
+}
+
+.p-6 {
+  padding-right: 70px;
+}
+
+.tww {
+  color: #37c8d3;
+  background-color: white;
+  padding-left: 10px;
+}
+
+.lnn {
+  color: rgb(21, 21, 151);
+  background-color: white;
+  padding-left: 10px;
+}
+
+.instaa {
+  color: rgb(189, 80, 98);
+  background-color: white;
+  padding-left: 10px;
+}
+
+h3 {
+  text-align: justify;
+  font-size: 16px !important;
+  top: 20px;
+}
+
+.copy {
+  padding-top: 20px;
   padding-right: 266px;
   font-size: 14px !important;
 }
-.fba{
+
+.fba {
   color: rgb(39, 39, 240);
-  
+
 }
-.twb{
+
+.twb {
   color: #12dbe9;
-  
+
 }
-.lnb{
-  color:rgb(25, 25, 192);
-  
+
+.lnb {
+  color: rgb(25, 25, 192);
+
 }
-.instab{
+
+.instab {
   color: rgb(209, 60, 85);
- 
-}
-
-a:hover{
-
-  color:#33636d !important;
 
 }
-a{
+
+a:hover {
+
+  color: #33636d !important;
+
+}
+
+a {
   padding: 10px;
 }
-.spacing{
+
+.spacing {
   padding-right: 280px;
 }
-.nav-itemm{
+
+.nav-itemm {
   padding-left: 0px;
 }
-.header{
-    padding-top: 30px;
-    color: #ff7701;
+
+.header {
+  padding-top: 30px;
+  color: #ff7701;
 }
-h4{
-    font-weight: bold !important;
+
+h4 {
+  font-weight: bold !important;
 }
-hr{
-    width: 300px;
+
+hr {
+  width: 300px;
 }
-.form-select{
-    width: 232px !important;
-    border: 1px solid gray !important;
-    font-size: 14px !important;
+
+.form-select {
+  width: 232px !important;
+  border: 1px solid gray !important;
+  font-size: 14px !important;
 }
-.comments{
-    height: 40px;
-    width: 232px;
-    font-size: 14px !important;
-    text-transform: capitalize !important;
-    letter-spacing: 0px !important;
+
+.comments {
+  height: 40px;
+  width: 232px;
+  font-size: 14px !important;
+  text-transform: capitalize !important;
+  letter-spacing: 0px !important;
 }
-button{
-    border-radius: 5px !important;
-    align-items: center;
-    background-color: #66b2b2;
-    border: 1px solid #71bbca ;
-    padding: 5px;
+
+button {
+  border-radius: 5px !important;
+  align-items: center;
+  background-color: #66b2b2;
+  border: 1px solid #71bbca;
+  padding: 5px;
 }
-.fifth-row{
-    padding-bottom: 20px;
+
+.fifth-row {
+  padding-bottom: 20px;
 }
-.sixth-row{
-    padding-left: 80px;
+
+.sixth-row {
+  padding-left: 80px;
 }
-input{
-    padding: 12px;
-    letter-spacing: 2px; 
-    border: 1px solid;
-    border-radius: 8px; 
-    font-size: 10px !important;
+
+input {
+  padding: 12px;
+  letter-spacing: 2px;
+  border: 1px solid;
+  border-radius: 8px;
+  font-size: 10px !important;
 }
-.container{
-    width: 951px !important;
+
+.container {
+  width: 951px !important;
 }
-.first-row{
-    padding-bottom: 16px;
+
+.first-row {
+  padding-bottom: 16px;
 }
-.second-row{
-    padding-bottom: 16px;
+
+.second-row {
+  padding-bottom: 16px;
 }
-.third-row{
-    padding-bottom: 16px;
+
+.third-row {
+  padding-bottom: 16px;
 }
-.fourth-row{
-    padding-bottom: 16px;
+
+.fourth-row {
+  padding-bottom: 16px;
 }
-.fifth-row{
-    padding-bottom: 16px;
+
+.fifth-row {
+  padding-bottom: 16px;
 }
-.header-2{
-    padding-top: 30px;
-    color: #ff7701;
+
+.header-2 {
+  padding-top: 30px;
+  color: #ff7701;
 }
-h6{
-    font-weight: bold !important;
-    color: #00829c !important;
-    padding-bottom: 20px;
+
+h6 {
+  font-weight: bold !important;
+  color: #00829c !important;
+  padding-bottom: 20px;
 }
-p{
-    padding-bottom: 10px;
+
+p {
+  padding-bottom: 10px;
+}
+
+a {
+  color: white !important;
+  padding: 10px;
+}
+
+a:hover {
+  background-color: white;
+  color: #33636d !important;
+}
+
+.color {
+  color: #33636d !important;
+  padding: 0px !important;
 }

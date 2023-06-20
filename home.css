@@ -1,6 +1,5 @@
-/* Harsha */
 .nav {
-  padding-top: 5px;
+  padding-top: 9px;
 }
 
 body {
@@ -74,7 +73,7 @@ body {
 }
 
 .nav-itemm {
-  padding-right: 25px;
+  padding-left: 14px;
 }
 
 .justify-content-right {
@@ -130,21 +129,26 @@ body {
 
 .fba {
   color: rgb(39, 39, 240);
-  
+  padding-top: 12px;
 }
 
 .twb {
   color: #12dbe9;
-  
+  padding-top: 12px;
 }
 
 .lnb {
   color: rgb(25, 25, 192);
-  
+  padding-top: 12px;
 }
 
 .instab {
   color: rgb(209, 60, 85);
+  padding-top: 12px;
+}
+
+.goo {
+  padding-top: 12px;
 }
 
 .fbb {
@@ -209,7 +213,7 @@ body {
   padding-right: 300px;
 }
 
-.col-md-4.column{
+.col-md-4.column {
   padding-top: 40px;
   padding-left: 2px;
 }

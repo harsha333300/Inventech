@@ -9,7 +9,7 @@ body {
   border-top: #00829c solid 3px;
   background-image: url(http://www.inventechinfo.com/images/bg.jpg);
   font-family: 'Roboto' !important;
- }
+}
 
 .nav-item {
   padding-left: 15px;
@@ -44,7 +44,7 @@ body {
   padding-bottom: 40px;
   padding-top: 20px;
 }
- 
+
 .align {
   text-align: justify;
   text-justify: inter-word;
@@ -81,9 +81,9 @@ body {
   padding-top: 20px;
 }
 
-.carous{
+.carous {
   height: 160px;
-  background-color:#e7f3f3;
+  background-color: #e7f3f3;
 }
 
 .text-center {
@@ -119,151 +119,176 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.bottom{
+
+.bottom {
   padding-bottom: 20px;
 }
-.bclr{
+
+.bclr {
   background-color: #009ca6;
 }
-.fba{
+
+.fba {
   color: rgb(39, 39, 240);
-  background-color: white;
+  
 }
-.twb{
+
+.twb {
   color: #12dbe9;
-  background-color: white;
+  
 }
-.lnb{
-  color:rgb(25, 25, 192);
-  background-color: white;
+
+.lnb {
+  color: rgb(25, 25, 192);
+  
 }
-.instab{
+
+.instab {
   color: rgb(209, 60, 85);
-  background-color: white;
 }
-.fbb{
+
+.fbb {
   color: blue;
   background-color: white;
 
 }
 
-.tww{
+.tww {
   color: #37c8d3;
   background-color: white;
   padding-left: 10px;
 }
-.lnn{
-  color:rgb(21, 21, 151);
+
+.lnn {
+  color: rgb(21, 21, 151);
   background-color: white;
   padding-left: 10px;
 }
-.instaa{
+
+.instaa {
   color: rgb(189, 80, 98);
   background-color: white;
   padding-left: 10px;
 }
-.fb{
+
+.fb {
   color: blue;
   background-color: white;
 
 }
-.tw{
+
+.tw {
   color: #37c8d3;
   background-color: white;
 }
-.ln{
-  color:rgb(21, 21, 151);
+
+.ln {
+  color: rgb(21, 21, 151);
   background-color: white;
 }
-.insta{
+
+.insta {
   color: rgb(189, 80, 98);
   background-color: white;
 }
-.shadow{
+
+.shadow {
   height: 350px;
   padding-left: 3px;
 }
-.paragraph{
+
+.paragraph {
   height: 120px;
 }
-.hover{
+
+.hover {
   color: white;
 }
-.text-light{
+
+.text-light {
   padding-right: 300px;
 }
-.col-md-4 {
+
+.col-md-4.column{
   padding-top: 40px;
- 
   padding-left: 2px;
 }
-.margin{
-  background-color:#009ca6;
+
+.margin {
+  background-color: #009ca6;
   height: 383px;
   position: relative;
 }
-.carousel{
+
+.carousel {
   top: -24px;
 }
 
-.mt-4{
-  margin-bottom: -24px;
-}
-.navadj{
+.navadj {
   padding-bottom: 25px;
 }
-.carousel-control.right.a{
+
+.carousel-control.right.a {
   top: 174px;
   bottom: 174px;
   width: 6%;
-  border-radius:50%;
-  background-image: none;
-}
-.carousel-control.left.a{
-  top: 174px;
-  bottom: 174px;
-  width: 6%;
-  border-radius:50%;
+  border-radius: 50%;
   background-image: none;
 }
 
-.carousel-control.right.h{
-  top:76px;
-  bottom: 93px;
+.carousel-control.left.a {
+  top: 174px;
+  bottom: 174px;
   width: 6%;
-  border-radius:50%;
+  border-radius: 50%;
   background-image: none;
 }
-.carousel-control.left.h{
+
+.carousel-control.right.h {
   top: 76px;
   bottom: 93px;
   width: 6%;
-  border-radius:50%;
+  border-radius: 50%;
   background-image: none;
 }
-.glyphicon-chevron-right.glyphicon.h:hover{
+
+.carousel-control.left.h {
+  top: 76px;
+  bottom: 93px;
+  width: 6%;
+  border-radius: 50%;
+  background-image: none;
+}
+
+.glyphicon-chevron-right.glyphicon.h:hover {
   color: blue;
 }
-.glyphicon-chevron-left.glyphicon.h:hover{
+
+.glyphicon-chevron-left.glyphicon.h:hover {
   color: blue;
 }
-.carousel-control.right{
+
+.carousel-control.right {
   top: 321px;
   bottom: 356px;
   width: 6%;
-  border-radius:50%;
+  border-radius: 50%;
   background-image: none;
 }
-.carousel-control.left{
+
+.carousel-control.left {
   top: 321px;
   bottom: 356px;
   width: 6%;
-  border-radius:50%;
+  border-radius: 50%;
   background-image: none;
 }
-.image-height{
- height: 640px;
-}
-.carousel-inner.h{
+
+.image-height {
   height: 640px;
 }
+
+.carousel-inner.h {
+  height: 640px;
+}
+

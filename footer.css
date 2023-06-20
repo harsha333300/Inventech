@@ -1,0 +1,38 @@
+.nav{
+    padding: 10px;
+}
+.fba {
+    color: rgb(39, 39, 240);
+    padding: 4px;
+  
+  }
+  
+  .twb {
+    color: #12dbe9;
+    padding: 4px;
+  }
+  
+  .lnb {
+    color: rgb(25, 25, 192);
+    padding: 4px;
+  }
+  
+  .instab {
+    color: rgb(209, 60, 85);
+    padding: 4px;
+  }
+  .hover{
+    text-decoration: none !important;
+    color: white !important;
+    padding: 14px;
+  }
+  .mail-icon{
+    padding: 4px !important;
+  }
+address{
+    padding-top: 4px;
+}
+.hover:hover{
+    background-color: white;
+    color: black !important;
+}

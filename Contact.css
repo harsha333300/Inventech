@@ -1,7 +1,7 @@
+
 .nav {
   padding-top: 5px;
 }
-
 .navadj {
   padding-bottom: 25px;
 }
@@ -96,9 +96,9 @@ h3 {
   top: 20px;
 }
 
-.copy {
+.copy {  
   padding-top: 20px;
-  padding-right: 266px;
+  padding-left: 20px;
   font-size: 14px !important;
 }
 
@@ -123,21 +123,13 @@ h3 {
 }
 
 a:hover {
-
+  background-color: white;
   color: #33636d !important;
 
 }
 
 a {
   padding: 10px;
-}
-
-.spacing {
-  padding-right: 280px;
-}
-
-.nav-itemm {
-  padding-left: 0px;
 }
 
 .header {
@@ -225,22 +217,40 @@ h6 {
   color: #00829c !important;
   padding-bottom: 20px;
 }
+.fba {
+  color: rgb(39, 39, 240);
 
-p {
-  padding-bottom: 10px;
 }
 
-a {
+.twb {
+  color: #12dbe9;
+  
+}
+
+.lnb {
+  color: rgb(25, 25, 192);
+}
+
+.instab {
+  color: rgb(209, 60, 85);
+  
+}
+.hover{
+  text-decoration: none !important;
   color: white !important;
   padding: 10px;
 }
-
-a:hover {
-  background-color: white;
-  color: #33636d !important;
+address{
+  padding-top: 4px;
 }
+.hover:hover{
+  background-color: white;
+}
+.goo{
+  margin-left: -10px;
+  margin-top: -4px;
 
-.color {
-  color: #33636d !important;
-  padding: 0px !important;
+}
+.pl-6{
+  padding-left: 21px;
 }

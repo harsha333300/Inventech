@@ -5,17 +5,19 @@
     padding: 68px;
     margin-top: -30px;
     border: 1px solid #99bdd5;
-    background-color:  #c1d5df;
+    background-color: #c1d5df;
     border-radius: 10px;
 }
 
-.text-center{
+.text-center {
     justify-content: center;
 }
-.h2{
+
+.h2 {
     padding-left: 79px;
     padding-bottom: 3px;
 }
+
 .b {
     background-color: #fd423d;
     text-align: center;
@@ -26,47 +28,54 @@
     text-transform: capitalize;
     width: 100%;
 }
-.form-select{
+
+.form-select {
     text-align: center;
     padding-top: 6px !important;
     padding-bottom: 6px !important;
     font-size: small !important;
 }
-.paragraph{
+
+.paragraph {
     padding-top: 8px;
     font-size: 11px;
 }
-h5{
-    font-size:x-small !important;
-   
+
+h5 {
+    font-size: x-small !important;
+
 }
-.row.h{
+
+.row.h {
     margin-top: -4px;
 }
-.col-md-6{
+
+.col-md-6 {
     margin-top: -4px;
 }
-.background{
+
+.background {
     background-color: #dddddd;
     padding: 8px;
     text-align: center;
 }
 
-.buts.col-md-6{
+.buts.col-md-6 {
     margin-top: -12px
 }
 
 /* credit 
 */
-.containerr.h{
+.containerr.h {
     width: 500px;
     height: 350px;
     margin-top: -30px;
     padding: 69px;
-    border: 1px solid #99bdd5!important;
-    background-color:  #c1d5df;   
+    border: 1px solid #99bdd5 !important;
+    background-color: #c1d5df;
     border-radius: 10px;
 }
+
 .btnn-align {
     color: white;
     text-align: center;
@@ -76,7 +85,7 @@ h5{
 button {
     background-color: #385bc5;
     border-radius: 8px !important;
-    border: 1px solid ;
+    border: 1px solid;
     padding: 7px;
     letter-spacing: 1px;
 }
@@ -96,25 +105,29 @@ button {
     width: 110px;
     margin-left: 9px;
 }
-a{
+
+a {
     text-decoration: none !important;
 }
 
 .first-row {
     padding-bottom: 15px;
 }
+
 .fourth-row {
     display: flex;
 }
+
 input {
     padding: 12px;
-    letter-spacing: 2px; 
+    letter-spacing: 2px;
     border: 1px solid;
-    border-radius: 8px; 
+    border-radius: 8px;
     font-size: 10px !important;
 
 }
-.third-row{
+
+.third-row {
     padding-bottom: 15px;
 }
 
@@ -143,27 +156,31 @@ h6 {
 h2 {
     font-size: 14px !important;
     font-weight: bold !important;
-    
+
 }
-.ad{
-   text-align: center;
- 
+
+.ad {
+    text-align: center;
+
 }
-.align{
+
+.align {
     margin-left: 8px;
 }
 
 /* payment */
-body{
-    background-color:#eff4f7!important;
+body {
+    background-color: #eff4f7 !important;
 }
-.container-fluid{
+
+.container-fluid {
     padding: 30px !important;
     font-family: 'Roboto' !important;
     height: 100%;
     font-size: 14px;
 }
-.nav-link{
+
+.nav-link {
     color: black !important;
     margin: 2px;
     margin-right: -6px;
@@ -173,8 +190,9 @@ body{
     border-bottom-right-radius: 0px !important;
 
 }
-.nav-link.active{
-    background-color: #c1d5df!important;
+
+.nav-link.active {
+    background-color: #c1d5df !important;
     border-left: 6px solid #4EA300 !important;
     margin-right: -17px;
     border-top: 1px solid #99bdd5;
@@ -183,34 +201,39 @@ body{
     box-shadow: none !important;
 
 }
-.nav-link.active:hover{
-    background-color:#c1d5df !important;
+
+.nav-link.active:hover {
+    background-color: #c1d5df !important;
     font-weight: bold;
     z-index: 1;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     box-shadow: 0px 0px 3px 2px #b2b2b2;
 }
 
-h4{
+h4 {
     font-size: 14px !important;
     font-weight: bold !important;
 }
-.nav-link{
+
+.nav-link {
     background-color: #f7fafb !important;
 }
 
-.header{
+.header {
     padding-bottom: 35px;
     text-align: center;
     padding-left: 45px;
 }
-.border.inner-container{
+
+.border.inner-container {
     border: none !important;
     padding: 50px;
 
 }
-.inner-container{
+
+.inner-container {
     width: 920px;
     height: 500px;
 }
@@ -223,7 +246,7 @@ h4{
     margin-top: -30px;
     border: 1px solid #99bdd5;
     border-radius: 10px;
-    background-color:  #c1d5df;
+    background-color: #c1d5df;
 
 
 }
@@ -232,37 +255,45 @@ h4{
     color: #4c8cb5;
     text-align: center;
 }
-button { 
+
+button {
     font-size: 12px !important;
     color: white;
-    background-color: 
-    #327bab;
+    background-color:
+        #327bab;
     border-radius: 8px !important;
-    border: 1px solid ;
+    border: 1px solid;
     border: #4c8cb5;
     text-transform: capitalize !important;
 }
+
 p {
     text-align: center;
 }
-h5{
+
+h5 {
     text-align: center;
     padding-top: 3px;
 }
-.spacing{
+
+.spacing {
     width: 338px;
     padding-left: 50px;
 }
-li{
+
+li {
     float: left;
 }
-.fa-whatsapp{
+
+.fa-whatsapp {
     color: rgb(38, 243, 38);
 }
-.fa-telegram{
+
+.fa-telegram {
     color: rgb(64, 177, 230);
 }
-.fa-instagram{
-    color: rgb(209, 60, 85);;
-}
 
+.fa-instagram {
+    color: rgb(209, 60, 85);
+    ;
+}

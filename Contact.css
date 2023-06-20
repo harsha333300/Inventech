@@ -155,6 +155,7 @@
   .form-select{
     width: 266px !important;
     font-size: 14px !important;
+    border: 1px solid !important;
   }
   
   .fba {
@@ -237,7 +238,7 @@ h6{
     font-size: 14px !important;
 }
 h6{
-    color: #329999 !important;
+    color: #008080 !important;
 }
 .comments{
     color: black !important;

@@ -208,6 +208,9 @@ body {
 .hover {
   color: white;
 }
+.text-dark:hover{
+  background-color: #d1e7e7 !important;
+}
 
 .text-light {
   padding-right: 300px;
@@ -295,4 +298,3 @@ body {
 .carousel-inner.h {
   height: 640px;
 }
-

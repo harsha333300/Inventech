@@ -1,215 +1,221 @@
 .nav {
-    padding-top: 5px;
-  }
-  
-  .navadj {
-    padding-bottom: 25px;
-  }
-  
-  body {
-    margin: 0;
-    padding: 0;
-    border-top: #00829c solid 3px;
-    background-image: url(http://www.inventechinfo.com/images/bg.jpg);
-    font-family: 'Roboto' !important;
-  }
-  
-  .nav-item {
-    padding-left: 8px;
-  }
-  
-  .h {
-    text-decoration-color: orange;
-  }
-  
-  a {
-    text-decoration: none !important;
-  }
-  
-  .justify-content-right {
-    padding-top: 20px;
-  }
-  
-  li {
-    padding: 7px;
-    padding-top: 18px;
-    font-size: 14px !important;
-  }
-  
-  .background {
-    width: 100%;
-    background: url(http://www.inventechinfo.com/images/bg_inner.png);
-  
-  }
-  
-  .heading {
-    position: absolute;
-    bottom: 0px;
-    left: 80px;
-    font-weight: 600 !important;
-  }
-  
-  .back-image {
-    width: 1095px;
-    height: 141px;
-    margin: 0px auto;
-    position: relative;
-  }
-  
-  .image {
-    right: 20px;
-    bottom: 0px;
-    position: absolute;
-  }
-  
-  .fbb {
-    color: blue;
-    background-color: white;
-  
-  }
-  
-  .p-6 {
-    padding-right: 70px;
-  }
-  
-  .tww {
-    color: #37c8d3;
-    background-color: white;
-    padding-left: 10px;
-  }
-  
-  .lnn {
-    color: rgb(21, 21, 151);
-    background-color: white;
-    padding-left: 10px;
-  }
-  
-  .instaa {
-    color: rgb(189, 80, 98);
-    background-color: white;
-    padding-left: 10px;
-  }
-  
+  padding-top: 5px;
+}
 
-  .fba {
-    color: rgb(39, 39, 240);
-  
-  }
-  
-  .twb {
-    color: #12dbe9;
-  
-  }
-  
-  .lnb {
-    color: rgb(25, 25, 192);
-  
-  }
-  
-  .instab {
-    color: rgb(209, 60, 85);
-  
-  }
-  
-  a:hover {
-    color: #33636d !important;
-  
-  }
-  
-  a {
-    padding: 10px;
-  }
-  h4 {
-    font-weight: bold !important;
-  }
+.navadj {
+  padding-bottom: 25px;
+}
 
-  input {
-    padding: 12px;
-    border: 1px solid;
-    border-radius: 8px;
-    font-size: 12px !important;
-    font-family: 'Roboto' !important;
-  }
-  .first-row {
-    padding-bottom: 16px;
-  }
-  
-  .second-row {
-    padding-bottom: 16px;
-  }
-  
-  .third-row {
-    padding-bottom: 16px;
-  }
-  
-  .fourth-row {
-    padding-bottom: 16px;
-  }
-  
-  .fifth-row {
-    padding-bottom: 16px;
-  }
-  .sixth-row{
-    padding-bottom: 19px;
-  }
-  .form-select{
-    width: 266px !important;
-    font-size: 14px !important;
-    border: 1px solid !important;
-  }
-  
-  .fba {
-    color: rgb(39, 39, 240);
-  
-  }
-  
-  .twb {
-    color: #12dbe9;
-  
-  }
-  
-  .lnb {
-    color: rgb(25, 25, 192);
-  }
-  
-  .instab {
-    color: rgb(209, 60, 85);
-  
-  }
-  
-  .hover {
-    text-decoration: none !important;
-    color: white !important;
-    padding: 10px;
-  }
-  
-  address {
-    padding-top: 4px;
-  }
-  
-  .goo {
-    margin-left: -10px;
-    margin-top: -4px;
-  
-  }
-  
-  .pl-6 {
-    padding-left: 21px;
-  }
-  
-  .hover:hover {
-    background-color: white;
-  }
-  
-  .text-dark:hover {
-    background-color: #d1e7e7 !important;
-  }
-  .copy {
-    padding-top: 20px;
-    padding-left: 20px;
-    font-size: 14px !important;
-  }
-  /* .vl{
+body {
+  margin: 0;
+  padding: 0;
+  border-top: #00829c solid 3px;
+  background-image: url(http://www.inventechinfo.com/images/bg.jpg);
+  font-family: 'Roboto' !important;
+}
+
+.nav-item {
+  padding-left: 8px;
+}
+
+.h {
+  text-decoration-color: orange;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.justify-content-right {
+  padding-top: 20px;
+}
+
+li {
+  padding: 7px;
+  padding-top: 18px;
+  font-size: 14px !important;
+}
+
+.background {
+  width: 100%;
+  background: url(http://www.inventechinfo.com/images/bg_inner.png);
+
+}
+
+.heading {
+  position: absolute;
+  bottom: 0px;
+  left: 80px;
+  font-weight: 600 !important;
+}
+
+.back-image {
+  width: 1095px;
+  height: 141px;
+  margin: 0px auto;
+  position: relative;
+}
+
+.image {
+  right: 20px;
+  bottom: 0px;
+  position: absolute;
+}
+
+.fbb {
+  color: blue;
+  background-color: white;
+
+}
+
+.p-6 {
+  padding-right: 70px;
+}
+
+.tww {
+  color: #37c8d3;
+  background-color: white;
+  padding-left: 10px;
+}
+
+.lnn {
+  color: rgb(21, 21, 151);
+  background-color: white;
+  padding-left: 10px;
+}
+
+.instaa {
+  color: rgb(189, 80, 98);
+  background-color: white;
+  padding-left: 10px;
+}
+
+
+.fba {
+  color: rgb(39, 39, 240);
+
+}
+
+.twb {
+  color: #12dbe9;
+
+}
+
+.lnb {
+  color: rgb(25, 25, 192);
+
+}
+
+.instab {
+  color: rgb(209, 60, 85);
+
+}
+
+a:hover {
+  color: #33636d !important;
+
+}
+
+a {
+  padding: 10px;
+}
+
+h4 {
+  font-weight: bold !important;
+}
+
+input {
+  padding: 12px;
+  border: 1px solid;
+  border-radius: 8px;
+  font-size: 12px !important;
+  font-family: 'Roboto' !important;
+}
+
+.first-row {
+  padding-bottom: 16px;
+}
+
+.second-row {
+  padding-bottom: 16px;
+}
+
+.third-row {
+  padding-bottom: 16px;
+}
+
+.fourth-row {
+  padding-bottom: 16px;
+}
+
+.fifth-row {
+  padding-bottom: 16px;
+}
+
+.sixth-row {
+  padding-bottom: 19px;
+}
+
+.form-select {
+  width: 266px !important;
+  font-size: 14px !important;
+  border: 1px solid !important;
+}
+
+.fba {
+  color: rgb(39, 39, 240);
+
+}
+
+.twb {
+  color: #12dbe9;
+
+}
+
+.lnb {
+  color: rgb(25, 25, 192);
+}
+
+.instab {
+  color: rgb(209, 60, 85);
+
+}
+
+.hover {
+  text-decoration: none !important;
+  color: white !important;
+  padding: 10px;
+}
+
+address {
+  padding-top: 4px;
+}
+
+.goo {
+  margin-left: -10px;
+  margin-top: -4px;
+
+}
+
+.pl-6 {
+  padding-left: 21px;
+}
+
+.hover:hover {
+  background-color: white;
+}
+
+.text-dark:hover {
+  background-color: #d1e7e7 !important;
+}
+
+.copy {
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 14px !important;
+}
+
+/* .vl{
     border-left: 1px solid #e3e3e3;
     height: 500px;
     position: absolute;
@@ -219,27 +225,33 @@
     box-shadow: 2px 0px 7px 0px  #c6c6c6, -2px 0px 7px 0px #c6c6c6;
     transform: rotateX(45deg);
 } */
-hr{
-    width: 266px;
+hr {
+  width: 266px;
 }
-p{
-    font-size: 14px;
+
+p {
+  font-size: 14px;
 }
-button{
-    border-radius: 7px !important;
-    width: 266px;
-    border: 1px solid #008080;
-    padding: 8px;
-    color: white;
-    background-color: 
+
+button {
+  border-radius: 7px !important;
+  width: 266px;
+  border: 1px solid #008080;
+  padding: 8px;
+  color: white;
+  background-color:
     #329999;
 }
-h6{
-    font-size: 14px !important;
+
+h6 {
+  color: #008080 !important;
 }
-h6{
-    color: #008080 !important;
+
+.comments {
+  color: black !important;
 }
-.comments{
-    color: black !important;
+#textarea{
+  border-radius: 5px;
+  font-size: small;
+  width: 265px;
 }

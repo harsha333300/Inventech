@@ -208,7 +208,8 @@ body {
 .hover {
   color: white;
 }
-.text-dark:hover{
+
+.text-dark:hover {
   background-color: #d1e7e7 !important;
 }
 
